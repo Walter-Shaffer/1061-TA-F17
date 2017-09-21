@@ -27,10 +27,15 @@ def duoBullshit():
 
 def getLabs():
     browser.get("https://clemson.instructure.com/courses/27667/assignments")
+    time.sleep(2)
     labList = browser.find_elements_by_css_selector(".item-group-condensed:nth-of-type(1) .ig-title")
     print len(labList)
     latestLab = labList[len(labList) - 1]
     print latestLab.text
+    latestLab.click()
+    time.sleep(2)
+    downloadBtn = browser.find_element_by_id("download_submission_button")
+    downloadBtn.click()
 
 
 
@@ -41,4 +46,7 @@ def run():
     time.sleep(10)
     getLabs()
 
-run()
+try:
+    run()
+except:
+    browser.close()
