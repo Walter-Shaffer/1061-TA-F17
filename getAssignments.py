@@ -38,7 +38,15 @@ class AssignmentDownloader():
         downloadBtn = self.browser.find_element_by_id("download_submission_button")
         downloadBtn.click()
         print "button clicked"
-        time.sleep(20)
+
+    def checkProgress(self):
+        time.sleep(3)
+        i = 0
+        while i < 1:
+            try:
+                self.browser.find_element_by_id("download_submissions_dialog")
+            except:
+                i = 1
 
     def run(self):
         self.browser.maximize_window()
@@ -48,6 +56,7 @@ class AssignmentDownloader():
         self.duoBullshit()
         time.sleep(10)
         self.getLabs()
+        self.checkProgress()
         self.browser.close()
 
 x = AssignmentDownloader(username, password)
