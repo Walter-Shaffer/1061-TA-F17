@@ -11,7 +11,7 @@ for (root, dirnames, filenames) in os.walk(os.getcwd()):
 
 for d in dirs:
 	for arg in args:
-		if arg == '../clean.py':
+		if arg[-8:] == 'clean.py':
 			continue
 		print 'removing ' + arg + ' in ' + d + '/' + arg
 		os.system('rm -f ' + d + '/' + arg)
