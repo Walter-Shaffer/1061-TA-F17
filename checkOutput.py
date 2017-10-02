@@ -16,26 +16,18 @@ class Checker():
 
         return assignmentList
 
-    def getExpectedOutput(self):
+    def setup(self):
         f = open("tests/" + self.labName + ".txt", "r")
         txt = json.loads(f.read())
+
         expectedOutput = txt["output"].strip()
-        
-        return expectedOutput
+        self.expected_output = expectedOutput
 
-    def getExpectedHeader(self):
-        f = open("tests/" + self.labName + ".txt", "r")
-        txt = json.loads(f.read())
         header = txt["header"].strip()
-        
-        return header
+        self.expected_header = header
 
-    def getExpectedFileName(self):
-        f = open("tests/" + self.labName + ".txt", "r")
-        txt = json.loads(f.read())
         file_name = txt["file_name"].strip()
-        
-        return file_name
+        self.expected_fileName = file_name
 
     def compileCheck(self, originalName, cleanedUpName, num):
         subprocess.call("touch sandbox/" + str(num) + ".txt", shell=True)
@@ -51,15 +43,14 @@ class Checker():
         return compileValue
 
     def outputCheck(self, cleanedUpName):
-        expectedOutput = self.getExpectedOutput().strip()
         outputOfProgram = subprocess.check_output("cd sandbox/ && java " + cleanedUpName.replace(".java", ""), shell=True)
         outputOfProgram = outputOfProgram.strip()
         outputValue = 0
-        if outputOfProgram == expectedOutput:
+        if outputOfProgram == self.expected_output:
             #print "output matches"
             outputValue = 1
         else:
-            print "error:", outputOfProgram, expectedOutput
+            print "error:", outputOfProgram, self.expected_output
 
         subprocess.call("rm sandbox/*", shell=True)
         return outputValue 
@@ -71,7 +62,7 @@ class Checker():
         headerOfProgram = code[0:classConstruction].strip()
 
         headerValue = 0
-        if headerOfProgram == self.getExpectedHeader():
+        if headerOfProgram == self.expected_header:
             headerValue = 1
 
         return headerValue
@@ -81,6 +72,7 @@ class Checker():
 
 
     def run(self):
+        self.setup()
         i = 0
         results = {}
         for assignment in self.getAssignmentList():
@@ -89,7 +81,7 @@ class Checker():
 
             fileName = assignment.split("_")[-1]
             fileNameValue = 1
-            if fileName != self.getExpectedFileName():
+            if fileName != self.expected_fileName:
                 fileNameValue = 0
             studentScore["file_name"] = fileNameValue
 
