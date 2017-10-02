@@ -1,0 +1,7 @@
+{"header": "", "file_name": "ClassifyMessage.java", "test_cases": {	
+	{"input": "Smoke 40.488 -105.0120 Smoke spotted on side of road", "output": "ALERT Smoke Smoke spotted on side of road 40.488 -105.012 false"}
+	{"input": "offer 40.022 -105.226 free essential supplies 4 evacs pets, 2323 55th st, boulder", "output": "OFFER offer free essential supplies 4 evacs pets, 2323 55th st, boulder 40.022 -105.226 true"}
+	{"input": "structure 40.183000 -105.113420  disaster relief center loc @ sports stadium, loveland", "output": "INFO structure disaster relief center loc @ sports stadium, loveland 40.183 -105.11342 true"}
+	{"input": "fyi 40.4998120 -105.012075 its raining ash: windsor, co", "output": "UNKNOWN fyi its raining ash: windsor, co 40.499812 -105.012075 false"}
+	{"input": "need 40.031131 -105.259259 people to help sort donations Sept 12 8am-9pm 3111 28th st", "output": "NEED need people to help sort donations Sept 12 8am-9pm 3111 28th st 40.031131 -105.259259 true"}}
+}
