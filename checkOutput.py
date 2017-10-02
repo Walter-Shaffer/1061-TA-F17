@@ -30,6 +30,13 @@ class Checker():
         
         return header
 
+    def getExpectedFileName(self):
+        f = open("tests/" + self.labName + ".txt", "r")
+        txt = json.loads(f.read())
+        file_name = txt["file_name"].strip()
+        
+        return file_name
+
     def compileCheck(self, originalName, cleanedUpName, num):
         subprocess.call("touch sandbox/" + str(num) + ".txt", shell=True)
         subprocess.call("cp submissions/" + self.labName + "/" + originalName + " sandbox/", shell=True)
@@ -81,6 +88,11 @@ class Checker():
             studentScore["name"] = assignment.split("_")[0]
 
             fileName = assignment.split("_")[-1]
+            fileNameValue = 1
+            if fileName != self.getExpectedFileName():
+                fileNameValue = 0
+            studentScore["file_name"] = fileNameValue
+
             if "-" in fileName:
                 fileName = fileName.split("-")[0] + ".java"
             print assignment, fileName
