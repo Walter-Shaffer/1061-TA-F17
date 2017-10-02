@@ -1,66 +1,100 @@
-import sys, os
+import subprocess
+import sys
+import json
 
-class Student:
+specLab = str(sys.argv[1])
 
-	def __init__(self, name, grade):
-		self.Name = name
-		self.Grade = grade
+class Checker():
 
-def getExpectedResults(fileName):
-	expectedResults = []
-	with open(fileName) as file:
-		for line in file:
-			expectedResults.append(line.split())
+    def __init__(self, specLab):
+        self.labName = specLab
 
-	return expectedResults
+    def getAssignmentList(self):
+        assignmentList = subprocess.check_output("ls submissions/" + self.labName + "/", shell=True)
+        assignmentList = assignmentList.split("\n")
+        assignmentList = assignmentList[0:len(assignmentList) -1]
 
-def checkFileForResults(fileName, values):
-	count = len(values)
-	with open(fileName) as file:
-		for line in file:
-			line = line.replace(':', ' ')
-			words = line.split()
-			for word in words:
-				if word in values:
-					count = count - 1
+        return assignmentList
 
-	if count == 0:
-		return True
+    def getExpectedOutput(self):
+        f = open("tests/" + self.labName + ".txt", "r")
+        txt = json.loads(f.read())
+        expectedOutput = txt["output"].strip()
+        
+        return expectedOutput
 
-	return False
+    def getExpectedHeader(self):
+        f = open("tests/" + self.labName + ".txt", "r")
+        txt = json.loads(f.read())
+        header = txt["header"].strip()
+        
+        return header
 
-def getTestCaseNames(num):
-	tests = []
-	for i in range(1, num + 1):
-		tests.append('test' + str(i) + '.txt')
-	return tests
+    def compileCheck(self, originalName, cleanedUpName, num):
+        subprocess.call("touch sandbox/" + str(num) + ".txt", shell=True)
+        subprocess.call("cp submissions/" + self.labName + "/" + originalName + " sandbox/", shell=True)
+        subprocess.call("mv sandbox/" + originalName + " sandbox/" + cleanedUpName, shell=True)
+        compileValue = 0
+        try:
+            subprocess.call("javac sandbox/" + cleanedUpName, shell=True)
+            compileValue = 1
+        except Exception as e:
+            print "doesn't compile"
+
+        return compileValue
+
+    def outputCheck(self, cleanedUpName):
+        expectedOutput = self.getExpectedOutput().strip()
+        outputOfProgram = subprocess.check_output("cd sandbox/ && java " + cleanedUpName.replace(".java", ""), shell=True)
+        outputOfProgram = outputOfProgram.strip()
+        outputValue = 0
+        if outputOfProgram == expectedOutput:
+            #print "output matches"
+            outputValue = 1
+        else:
+            print "error:", outputOfProgram, expectedOutput
+
+        subprocess.call("rm sandbox/*", shell=True)
+        return outputValue 
+
+    def headerCheck(self, cleanedUpName):
+        f = open("sandbox/" + cleanedUpName, "r")
+        code = f.read()
+        classConstruction = code.index("public class")
+        headerOfProgram = code[0:classConstruction].strip()
+
+        headerValue = 0
+        if headerOfProgram == self.getExpectedHeader():
+            headerValue = 1
+
+        return headerValue
+
+    def generateResults(self):
+        f = open(self.labName, "rw")
 
 
-numOfTest = int(sys.argv[1])
-resultsFile = sys.argv[2]
+    def run(self):
+        i = 0
+        results = {}
+        for assignment in self.getAssignmentList():
+            studentScore = {}
+            studentScore["name"] = assignment.split("_")[0]
 
-students = []
-results = getExpectedResults(resultsFile)
-tests = getTestCaseNames(numOfTest)
+            fileName = assignment.split("_")[-1]
+            if "-" in fileName:
+                fileName = fileName.split("-")[0] + ".java"
+            print assignment, fileName
 
-dirs = []
-for (root, dirnames, filenames) in os.walk(os.getcwd()):
-	dirs.extend(dirnames)
-	break
+            compileValue = self.compileCheck(assignment, fileName, i)
+            studentScore["compiling"] = compileValue
 
-base = os.getcwd()
+            headerValue = self.headerCheck(fileName)
+            studentScore["header"] = headerValue
 
-for d in dirs:
-	path = d + '/'
-	curGrade = 0
-	os.chdir(path)
-	for i in range(0, numOfTest):
-		if checkFileForResults(tests[i], results[i]):
-			curGrade = curGrade + 100/numOfTest
-		# else:
-		# 	print(d + ' failed ' + tests[i])	
-	students.append(Student(d, curGrade))
-	os.chdir(base)
+            outputValue = self.outputCheck(fileName)
+            studentScore["output"] = outputValue
 
-for s in students:
-	print('name: ' + s.Name + '\tgrade: ' + str(s.Grade))
+            print studentScore
+            i += 1
+
+Checker(specLab).run()
