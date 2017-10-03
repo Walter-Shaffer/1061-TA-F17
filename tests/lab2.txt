@@ -1,6 +1,6 @@
-{"header": "", "file_name": "NetPay.java", "test_cases": {	
-	{"input": "40", "output": "290.0 225.765 29.0 13.05 17.98 4.205"}
-	{"input": "45", "output": "326.25 253.985625 32.625 14.68125 20.2275 4.730625"}
-	{"input": "25", "output": "181.25 141.103125 18.125 8.15625 11.2375 2.628125"}
-	{"input": "37", "output": "268.25 208.832625 26.825 12.07125 16.631500000000003 3.8896249999999997"}}
+{"header": "", "file_name": "NetPay.java", "test_cases": [	
+	{"input": "30", "output": "Enterhoursperweek:Hours per Week: 30 Gross Pay: 217.5 Net Pay: 169.32375 Deductions Federal: 21.75 State: 9.7875 Social Security: 13.485 Medicare: 3.15375"},
+	{"input": "35", "output": "Enterhoursperweek:Hours per Week: 35 Gross Pay: 253.75 Net Pay: 197.544375 Deductions Federal: 25.375 State: 11.41875 Social Security: 15.7325 Medicare: 3.679375"},
+	{"input": "40", "output": "Enterhoursperweek:Hours per Week: 40 Gross Pay: 290.0 Net Pay: 225.765 Deductions Federal: 29.0 State: 13.05 Social Security: 17.98 Medicare: 4.205"},
+	{"input": "45", "output": "Enterhoursperweek:Hours per Week: 45 Gross Pay: 326.25 Net Pay: 253.985625 Deductions Federal: 32.625 State: 14.68125 Social Security: 20.2275 Medicare: 4.730625"}]
 }

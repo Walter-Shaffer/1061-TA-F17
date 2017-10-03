@@ -1,6 +1,7 @@
 import subprocess
 import sys
 import json
+import csv
 
 specLab = str(sys.argv[1])
 
@@ -20,7 +21,7 @@ class Checker():
         f = open("tests/" + self.labName + ".txt", "r")
         txt = json.loads(f.read())
 
-        expectedOutput = txt["output"].strip()
+        expectedOutput = txt["test_cases"]
         self.expected_output = expectedOutput
 
         header = txt["header"].strip()
@@ -43,14 +44,29 @@ class Checker():
         return compileValue
 
     def outputCheck(self, cleanedUpName):
-        outputOfProgram = subprocess.check_output("cd sandbox/ && java " + cleanedUpName.replace(".java", ""), shell=True)
-        outputOfProgram = outputOfProgram.strip()
         outputValue = 0
-        if outputOfProgram == self.expected_output:
-            #print "output matches"
-            outputValue = 1
-        else:
-            print "error:", outputOfProgram, self.expected_output
+        for case in self.expected_output:
+            try:
+                try:
+                    p = subprocess.Popen("cd sandbox/ && java " + cleanedUpName.replace(".java", ""), stdin=subprocess.PIPE, stdout=subprocess.PIPE, shell=True)
+                except Exception as e:
+                    raise Exception(str(e))
+                    break
+                outputOfProgram = p.communicate(case["input"])[0]
+                #outputOfProgram = outputOfProgram[outputOfProgram.index(case["input"]) + len(case["input"])::]
+                outputOfProgram = outputOfProgram.replace("\n", "").replace("\t", "").strip().replace(" ", "")
+                print outputOfProgram
+                #expectedOutput = case["output"][case["output"].index(case["input"]) + len(case["input"])::]
+                expectedOutput = case["output"].replace(" ", "")
+                print expectedOutput
+                expectedOutput = expectedOutput.replace(" ", "")
+
+                if outputOfProgram == expectedOutput:
+                    outputValue = 1
+                else:
+                    raise Exception("output from " + case["input"] + " doesn't match")
+            except Exception as e:
+                 outputValue = [0, str(e)]
 
         subprocess.call("rm sandbox/*", shell=True)
         return outputValue 
@@ -58,18 +74,35 @@ class Checker():
     def headerCheck(self, cleanedUpName):
         f = open("sandbox/" + cleanedUpName, "r")
         code = f.read()
-        classConstruction = code.index("public class")
-        headerOfProgram = code[0:classConstruction].strip()
+        try:
+            classConstruction = code.index("public class")
+            headerOfProgram = code[0:classConstruction].strip()
+            header_segments = ["Author", "Submission Date", "Purpose", "Academic Honesty"]
+            i = 0
+            while i < len(header_segments) - 1:
+                try:
+                    headerOfProgram.index(header_segments[i])
+                    headerValue = 1
+                except:
+                    headerValue = 0
+                    i = len(header_segments)
+                i += 1
 
-        headerValue = 0
-        if headerOfProgram == self.expected_header:
-            headerValue = 1
+            print headerValue
+            #if headerOfProgram == self.expected_header:
+            #    headerValue = 1
+        except:
+            headerValue = 0
 
         return headerValue
 
-    def generateResults(self):
-        f = open(self.labName, "rw")
-
+    def generateResults(self, ob):
+        with open(self.labName + ".csv", "wb") as csvfile:
+            fieldnames = ob[1].keys() + ["error"]
+            f = csv.DictWriter(csvfile, fieldnames=fieldnames)
+            f.writeheader()
+            for value in ob.values():
+                f.writerow(value)
 
     def run(self):
         self.setup()
@@ -96,9 +129,26 @@ class Checker():
             studentScore["header"] = headerValue
 
             outputValue = self.outputCheck(fileName)
-            studentScore["output"] = outputValue
+            if type(outputValue) is list:
+                studentScore["output"] = outputValue[0]
+                studentScore["error"] = outputValue[1]
+            else:
+                studentScore["output"] = outputValue
 
-            print studentScore
+            
+            grade = 100
+            if compileValue == 0:
+                grade = 0
+            elif studentScore["output"] == 0:
+                grade = 0
+            else:
+                if headerValue == 0:
+                    grade -= 10
+            studentScore["grade"] = grade
+
+            results[i] = studentScore
             i += 1
+
+        self.generateResults(results)
 
 Checker(specLab).run()

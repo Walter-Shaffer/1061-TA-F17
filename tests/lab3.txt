@@ -1,7 +1,11 @@
-{"header": "", "file_name": "ParseTheTweet.java", "test_cases": {	
-	{"input": "#typ emergency; #det tornado; #loc hwy,6; #lat 42.954000; #lng -125.31;", "output": "EMERGENCY tornado hwy-6 42.954 -125.31"}
-	{"input": "#typ ongoing; #det evacuees can return to   homes; #loc boulder heights; #lat 40.059; #lng -105.4067;", "output": "ONGOING evacuees can return to homes boulder heights 40.059 -105.4067"}
-	{"input": "#typ no   fire; #det activity; #loc west of   the pinewood res dam; #lat 40.367; #lng -105.292;", "output": "NO FIRE activity west of the pinewood res dam 40.367 -105.292"}
-	{"input": "#typ structure; #det damaged; #loc 224 left fork road (shed) (house okay); #lat 40.029854; #lng -105.391055;", "output": "STRUCTURE damaged 224 left fork road (shed) (house okay) 40.029854 -105.391055"}
-	{"input": "#typ photo; #det local wild horse; #loc wild horse; #lat 40.052304; #lng -105.319374;", "output": "PHOTO local wild horse wild horse 40.052304 -105.319374"} }
+{"header": "", "file_name": "ParseTheTweet.java", "test_cases": [	
+	{"input": "#typ offer; #det free essential supplies 4 evacs pets.; #loc 2323 55th st, boulder; #lat 40.022; #lng -105.226;", "output": "Type: OFFER Detail: free essential supplies 4 evacs pets. Location: 2323 55th st- boulder Latitude: 40.022 Longitude: -105.226"},
+	{"input": "#typ structure; #det damaged; #loc 224 left fork road (shed) (house okay); #lat 40.029854; #lng -105.391055;", "output": "Type: STRUCTURE Detail: damaged Location: 224 left fork road (shed) (house okay) Latitude: 40.029854 Longitude: -105.391055"},
+	{"input":"#typ wind; #det just switched, and now the smoke is thick around our house; #loc 40.352,-105.2045; #lat 40.3523; #lng -105.2045;", "output": "Type: WIND Detail: just switched- and now the smoke is thick around our house Location: 40.352--105.2045 Latitude: 40.3523 Longitude: -105.2045"},
+	{"input": "#typ fire; #det firefighter sees a glow; #loc sw from west coach rd toward sunshine canyon; #lat 40.0515; #lng -105.332;", "output": "Type: FIRE Detail: firefighter sees a glow Location: sw from west coach rd toward sunshine canyon Latitude: 40.0515 Longitude: -105.332"},
+	{"input": "#typ structure; #det damaged; #loc unknown number, by 204 gold run road; #lat 40.050904; #lng -105.373941;", "output": "Type: STRUCTURE Detail: damaged Location: unknown number- by 204 gold run road Latitude: 40.050904 Longitude: -105.373941"},
+	{"input": "#typ evac; #det overflow shltr 4 evacuees at; #loc walt clark middle school, loveland; #lat 40.383; #lng -105.113;", "output": "Type: EVAC Detail: overflow shltr 4 evacuees at Location: walt clark middle school- loveland Latitude: 40.383 Longitude: -105.113"},
+	{"input": "#typ no fire; #det activity; #loc west of the pinewood res dam; #lat 40.367; #lng -105.292;", "output": "Type: NO FIRE Detail: activity Location: west of the pinewood res dam Latitude: 40.367 Longitude: -105.292"},
+	{"input": "#typ photo; #det local wild horse; #loc wild horse; #lat 40.052304; #lng -105.319374;", "output": "Type: PHOTO Detail: local wild horse Location: wild horse Latitude: 40.052304 Longitude: -105.319374"},
+	{"input": "#typ smoke; #det its raining ash; #loc windsor, co; #lat 40.499812; #lng -105.012075;", "output": "Type: SMOKE Detail: its raining ash Location: windsor- co Latitude: 40.499812 Longitude: -105.012075"}]
 }
