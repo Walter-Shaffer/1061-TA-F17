@@ -97,7 +97,7 @@ class Checker():
         return headerValue
 
     def generateResults(self, ob):
-        with open(self.labName + ".csv", "wb") as csvfile:
+        with open("results/" + self.labName + ".csv", "wb") as csvfile:
             fieldnames = ob[1].keys() + ["error"]
             f = csv.DictWriter(csvfile, fieldnames=fieldnames)
             f.writeheader()
