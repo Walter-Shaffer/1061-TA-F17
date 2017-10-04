@@ -34,71 +34,56 @@ class Checker():
         subprocess.call("touch sandbox/" + str(num) + ".txt", shell=True)
         subprocess.call("cp submissions/" + self.labName + "/" + originalName + " sandbox/", shell=True)
         subprocess.call("mv sandbox/" + originalName + " sandbox/" + cleanedUpName, shell=True)
-        compileValue = 0
-        try:
-            subprocess.call("javac sandbox/" + cleanedUpName, shell=True)
-            compileValue = 1
-        except Exception as e:
-            print "doesn't compile"
-
-        return compileValue
+        subprocess.call("javac -encoding ISO-8859-1 sandbox/" + cleanedUpName, shell=True)
 
     def outputCheck(self, cleanedUpName):
-        outputValue = 0
-        for case in self.expected_output:
-            try:
-                try:
-                    p = subprocess.Popen("cd sandbox/ && java " + cleanedUpName.replace(".java", ""), stdin=subprocess.PIPE, stdout=subprocess.PIPE, shell=True)
-                except Exception as e:
-                    raise Exception(str(e))
-                    break
-                outputOfProgram = p.communicate(case["input"])[0]
-                #outputOfProgram = outputOfProgram[outputOfProgram.index(case["input"]) + len(case["input"])::]
-                outputOfProgram = outputOfProgram.replace("\n", "").replace("\t", "").strip().replace(" ", "")
-                print outputOfProgram
-                #expectedOutput = case["output"][case["output"].index(case["input"]) + len(case["input"])::]
-                expectedOutput = case["output"].replace(" ", "")
-                print expectedOutput
-                expectedOutput = expectedOutput.replace(" ", "")
+        i = 0
+        while i < len(self.expected_output) -1:
+            case = self.expected_output[i]
+            p = subprocess.Popen("cd sandbox/ && java " + cleanedUpName.replace(".java", ""), stdin=subprocess.PIPE, stdout=subprocess.PIPE, shell=True)
+            outputOfProgram = p.communicate(case["input"])[0]
+            #outputOfProgram = outputOfProgram[outputOfProgram.index(case["input"]) + len(case["input"])::]
+            outputOfProgram = outputOfProgram.replace("\n", "").replace("\t", "").strip().replace(" ", "").lower()
+            print outputOfProgram
+            #expectedOutput = case["output"][case["output"].index(case["input"]) + len(case["input"])::]
+            expectedOutput = case["output"].replace(" ", "").lower()
+            print expectedOutput
+            #expectedOutput = expectedOutput.replace(" ", "")
 
-                if outputOfProgram == expectedOutput:
-                    outputValue = 1
+            if outputOfProgram == expectedOutput:
+                outputValue = 1
+            else:
+                if expectedOutput in outputOfProgram:
+                    raise Exception("partial credit")
                 else:
                     raise Exception("output from " + case["input"] + " doesn't match")
-            except Exception as e:
-                 outputValue = [0, str(e)]
+                i = len(self.expectedcw_output)
+
+            i += 1
 
         subprocess.call("rm sandbox/*", shell=True)
-        return outputValue 
 
     def headerCheck(self, cleanedUpName):
         f = open("sandbox/" + cleanedUpName, "r")
         code = f.read()
-        try:
-            classConstruction = code.index("public class")
-            headerOfProgram = code[0:classConstruction].strip()
-            header_segments = ["Author", "Submission Date", "Purpose", "Academic Honesty"]
-            i = 0
-            while i < len(header_segments) - 1:
-                try:
-                    headerOfProgram.index(header_segments[i])
-                    headerValue = 1
-                except:
-                    headerValue = 0
-                    i = len(header_segments)
-                i += 1
 
-            print headerValue
-            #if headerOfProgram == self.expected_header:
-            #    headerValue = 1
-        except:
-            headerValue = 0
-
-        return headerValue
+        classConstruction = code.index("public class")
+        headerOfProgram = code[0:classConstruction].strip()
+        header_segments = ["Author", "Submission Date", "Purpose", "Academic Honesty"]
+        i = 0
+        while i < len(header_segments) - 1:
+            try:
+                headerOfProgram.index(header_segments[i])
+                headerValue = 1
+            except:
+                headerValue = 0
+                i = len(header_segments)
+            i += 1
 
     def generateResults(self, ob):
         with open("results/" + self.labName + ".csv", "wb") as csvfile:
-            fieldnames = ob[1].keys() + ["error"]
+            #fieldnames = ob[1].keys() + ["error"]
+            fieldnames = ob[1].keys()
             f = csv.DictWriter(csvfile, fieldnames=fieldnames)
             f.writeheader()
             for value in ob.values():
@@ -122,28 +107,50 @@ class Checker():
                 fileName = fileName.split("-")[0] + ".java"
             print assignment, fileName
 
-            compileValue = self.compileCheck(assignment, fileName, i)
+            compileValue = 0
+            headerValue = 0
+            outputValue = 0
+            errorValue = 0
+
+            try:
+                self.compileCheck(assignment, fileName, i)
+                compileValue = 1
+
+                outputValue = self.outputCheck(fileName)
+                outputValue = 1
+            except Exception as e:
+                print e
+                if str(e) == "partial credit":
+                    compileValue = 1
+                    headerValue = 1
+                    outputValue = 1
+                else:
+                    compileValue = 0
+                    headerValue = 0
+                    outputValue = 0
+                errorValue = str(e)
+
+            try:
+                self.headerCheck(fileName)
+                headerValue = 1
+            except:
+                headerValue = 0
+
             studentScore["compiling"] = compileValue
-
-            headerValue = self.headerCheck(fileName)
             studentScore["header"] = headerValue
-
-            outputValue = self.outputCheck(fileName)
-            if type(outputValue) is list:
-                studentScore["output"] = outputValue[0]
-                studentScore["error"] = outputValue[1]
-            else:
-                studentScore["output"] = outputValue
+            studentScore["output"] = outputValue
+            studentScore["error"] = errorValue
 
             
             grade = 100
-            if compileValue == 0:
+            if compileValue == 0 or outputValue == 0:
                 grade = 0
-            elif studentScore["output"] == 0:
-                grade = 0
-            else:
+            else: 
                 if headerValue == 0:
                     grade -= 10
+                if studentScore["error"] != "":
+                    grade -= 10
+
             studentScore["grade"] = grade
 
             results[i] = studentScore
