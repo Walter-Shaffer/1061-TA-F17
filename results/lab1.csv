@@ -1,68 +1,68 @@
 name,grade,file_name,header,compiling,error,output
-adamssilast,0,1,0,0,string indices must be integers,0
-agafonovasninam,0,1,0,0,string indices must be integers,0
-bareandrew,0,1,0,0,string indices must be integers,0
-bastianiiitrip,0,1,0,0,string indices must be integers,0
-battaglinijason,0,1,0,0,string indices must be integers,0
-blaskomarkd,0,0,0,0,string indices must be integers,0
-brookskarmenj,0,1,0,0,string indices must be integers,0
-caldwelljacobr,0,1,0,0,string indices must be integers,0
-carljaisonaustin,0,1,0,0,string indices must be integers,0
-christensendanielkeith,0,1,0,0,string indices must be integers,0
-coffeepatricktodd,0,1,0,0,string indices must be integers,0
-commodorejamesh,0,1,0,0,string indices must be integers,0
-coppenbargerethancondit,0,1,0,0,string indices must be integers,0
-desaianeri,0,1,0,0,string indices must be integers,0
-doanjackie,0,1,0,0,string indices must be integers,0
-dobrenenalex,0,1,0,0,string indices must be integers,0
-frazierjraj,0,1,0,0,string indices must be integers,0
-gosnelljacksonl,0,1,0,0,string indices must be integers,0
-griffiththomasc,0,1,0,0,string indices must be integers,0
-grimsleymichaele,0,1,0,0,string indices must be integers,0
-gundrybrysonn,0,1,0,0,string indices must be integers,0
-hallharrisonc,0,1,0,0,string indices must be integers,0
-halsethcameronm,0,1,0,0,string indices must be integers,0
-hammondmadisonl,0,1,0,0,string indices must be integers,0
-hartmonical,0,1,0,0,string indices must be integers,0
-hazeltonanthonyg,0,0,0,0,string indices must be integers,0
-heldmatthewj,0,1,0,0,string indices must be integers,0
-hennessytaylor,0,1,0,0,string indices must be integers,0
-hickschristopheralan,0,1,0,0,string indices must be integers,0
-hoganiiijames,0,1,0,0,string indices must be integers,0
-hollowayjeremy,0,1,0,0,string indices must be integers,0
-hollowelljohn,0,1,0,0,string indices must be integers,0
-ingmiregabrielalexander,0,1,0,0,string indices must be integers,0
-kollurumanu,0,1,0,0,string indices must be integers,0
-lambmitchellj,0,1,0,0,string indices must be integers,0
-lamoureuxkylej,0,1,0,0,string indices must be integers,0
-lathamivspalding,0,1,0,0,string indices must be integers,0
-maggardjacko,0,1,0,0,string indices must be integers,0
-mcdonoughjrdavidj,0,1,0,0,string indices must be integers,0
-meadewil,0,0,0,0,string indices must be integers,0
-morsetimothyj,0,1,0,0,string indices must be integers,0
-ntunemimisih,0,1,0,0,string indices must be integers,0
-okinedokevin,0,1,0,0,string indices must be integers,0
-orecchiapaul,0,1,0,0,string indices must be integers,0
-owensjuliaf,0,0,0,0,string indices must be integers,0
-padgettandrew,0,0,0,0,string indices must be integers,0
-pardoalejandro,0,1,0,0,string indices must be integers,0
-picardyshawne,0,1,0,0,string indices must be integers,0
-politedayvonterrell,0,1,0,0,string indices must be integers,0
-pottsemilya,0,0,0,0,string indices must be integers,0
-robertsondavis,0,1,0,0,string indices must be integers,0
-ryancarolineelizabeth,0,1,0,0,string indices must be integers,0
-shealylydiae,0,1,0,0,string indices must be integers,0
-singletaryhunterl,0,1,0,0,string indices must be integers,0
-smithzac,0,1,0,0,string indices must be integers,0
-stricklandjacoba,0,1,0,0,string indices must be integers,0
-tizikally,0,0,0,0,string indices must be integers,0
-turnerelizabethmarie,0,1,0,0,string indices must be integers,0
-vonkellerbenjaminjosef,0,1,0,0,string indices must be integers,0
-wangjeffrey,0,1,0,0,string indices must be integers,0
-washingtonandret,0,1,0,0,string indices must be integers,0
-weglarzeliaskjaergaard,0,1,0,0,string indices must be integers,0
-williamsjoshuaj,0,1,0,0,string indices must be integers,0
-wilsontrevon,0,1,0,0,string indices must be integers,0
-wongjackyf,0,1,0,0,string indices must be integers,0
-wrightheatheri,0,1,0,0,string indices must be integers,0
-xuejohn,0,1,0,0,string indices must be integers,0
+adamssilast,90,1,0,1,0,1
+agafonovasninam,90,1,0,1,0,1
+bareandrew,90,1,0,1,0,1
+bastianiiitrip,90,1,0,1,0,1
+battaglinijason,90,1,0,1,0,1
+blaskomarkd,90,0,0,1,0,1
+brookskarmenj,90,1,0,1,0,1
+caldwelljacobr,90,1,0,1,0,1
+carljaisonaustin,90,1,0,1,0,1
+christensendanielkeith,90,1,0,1,0,1
+coffeepatricktodd,90,1,0,1,0,1
+commodorejamesh,90,1,0,1,0,1
+coppenbargerethancondit,90,1,0,1,0,1
+desaianeri,90,1,1,1,partial credit,1
+doanjackie,90,1,0,1,0,1
+dobrenenalex,90,1,0,1,0,1
+frazierjraj,90,1,0,1,0,1
+gosnelljacksonl,90,1,0,1,0,1
+griffiththomasc,90,1,1,1,partial credit,1
+grimsleymichaele,90,1,1,1,partial credit,1
+gundrybrysonn,90,1,0,1,0,1
+hallharrisonc,90,1,0,1,0,1
+halsethcameronm,90,1,0,1,0,1
+hammondmadisonl,90,1,0,1,0,1
+hartmonical,90,1,0,1,0,1
+hazeltonanthonyg,90,0,0,1,0,1
+heldmatthewj,90,1,0,1,0,1
+hennessytaylor,90,1,0,1,0,1
+hickschristopheralan,90,1,0,1,0,1
+hoganiiijames,90,1,0,1,0,1
+hollowayjeremy,90,1,1,1,partial credit,1
+hollowelljohn,90,1,0,1,0,1
+ingmiregabrielalexander,90,1,0,1,0,1
+kollurumanu,90,1,0,1,0,1
+lambmitchellj,90,1,0,1,0,1
+lamoureuxkylej,90,1,0,1,0,1
+lathamivspalding,90,1,0,1,0,1
+maggardjacko,90,1,1,1,partial credit,1
+mcdonoughjrdavidj,90,1,0,1,0,1
+meadewil,90,0,0,1,0,1
+morsetimothyj,90,1,0,1,0,1
+ntunemimisih,0,1,0,0,Command 'cd sandbox/ && java HelloWorld' returned non-zero exit status 1,0
+okinedokevin,90,1,0,1,0,1
+orecchiapaul,90,1,0,1,0,1
+owensjuliaf,90,0,0,1,0,1
+padgettandrew,90,0,0,1,0,1
+pardoalejandro,90,1,1,1,partial credit,1
+picardyshawne,90,1,0,1,0,1
+politedayvonterrell,90,1,0,1,0,1
+pottsemilya,90,0,0,1,0,1
+robertsondavis,90,1,0,1,0,1
+ryancarolineelizabeth,90,1,0,1,0,1
+shealylydiae,90,1,0,1,0,1
+singletaryhunterl,90,1,0,1,0,1
+smithzac,90,1,0,1,0,1
+stricklandjacoba,90,1,0,1,0,1
+tizikally,90,0,0,1,0,1
+turnerelizabethmarie,90,1,0,1,0,1
+vonkellerbenjaminjosef,90,1,0,1,0,1
+wangjeffrey,90,1,0,1,0,1
+washingtonandret,90,1,0,1,0,1
+weglarzeliaskjaergaard,90,1,1,1,partial credit,1
+williamsjoshuaj,90,1,0,1,0,1
+wilsontrevon,90,1,0,1,0,1
+wongjackyf,90,1,0,1,0,1
+wrightheatheri,90,1,0,1,0,1
+xuejohn,90,1,0,1,0,1

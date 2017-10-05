@@ -1,3 +1,4 @@
-{"header": "", "file_name": "HelloWorld.java", "test_cases": 
+{"header": "", "file_name": "HelloWorld.java", "test_cases": [
     {"input": "", "output": "Hello World!"}
+]
 }

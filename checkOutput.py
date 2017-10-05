@@ -41,8 +41,12 @@ class Checker():
         partialCredit = 0
         errors = []
         for case in self.expected_output:
-            p = subprocess.Popen("cd sandbox/ && java " + cleanedUpName.replace(".java", ""), stdin=subprocess.PIPE, stdout=subprocess.PIPE, shell=True)
-            outputOfProgram = p.communicate(case["input"])[0]
+            outputOfProgram = ""
+            if case["input"] == "":
+                outputOfProgram = subprocess.check_output("cd sandbox/ && java " + cleanedUpName.replace(".java", ""), shell=True)
+            else:
+                p = subprocess.Popen("cd sandbox/ && java " + cleanedUpName.replace(".java", ""), stdin=subprocess.PIPE, stdout=subprocess.PIPE, shell=True)
+                outputOfProgram = p.communicate(case["input"])[0]
             outputOfProgram = outputOfProgram.replace("\n", "").replace("\t", "").strip().replace(" ", "").lower()
             print outputOfProgram
 
