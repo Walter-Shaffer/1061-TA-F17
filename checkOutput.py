@@ -38,47 +38,54 @@ class Checker():
 
     def outputCheck(self, cleanedUpName):
         i = 0
-        while i < len(self.expected_output) -1:
-            case = self.expected_output[i]
+        partialCredit = 0
+        errors = []
+        for case in self.expected_output:
             p = subprocess.Popen("cd sandbox/ && java " + cleanedUpName.replace(".java", ""), stdin=subprocess.PIPE, stdout=subprocess.PIPE, shell=True)
             outputOfProgram = p.communicate(case["input"])[0]
-            #outputOfProgram = outputOfProgram[outputOfProgram.index(case["input"]) + len(case["input"])::]
             outputOfProgram = outputOfProgram.replace("\n", "").replace("\t", "").strip().replace(" ", "").lower()
             print outputOfProgram
-            #expectedOutput = case["output"][case["output"].index(case["input"]) + len(case["input"])::]
+
             expectedOutput = case["output"].replace(" ", "").lower()
             print expectedOutput
-            #expectedOutput = expectedOutput.replace(" ", "")
 
             if outputOfProgram == expectedOutput:
                 outputValue = 1
             else:
                 if expectedOutput in outputOfProgram:
-                    raise Exception("partial credit")
+                    partialCredit += 1
                 else:
-                    raise Exception("output from " + case["input"] + " doesn't match")
-                i = len(self.expectedcw_output)
+                    errors.append(case["input"])
 
             i += 1
 
-        subprocess.call("rm sandbox/*", shell=True)
+
+        if 0 < len(errors) <= 1:
+            raise Exception("partial credit")
+        elif len(errors) > 1:
+            raise Exception(str(len(errors)) + " errors: output from {" + "###".join(errors) + "} doesn't match")
+        elif partialCredit > 0:
+            raise Exception("partial credit")
+            
 
     def headerCheck(self, cleanedUpName):
         f = open("sandbox/" + cleanedUpName, "r")
         code = f.read()
 
         classConstruction = code.index("public class")
-        headerOfProgram = code[0:classConstruction].strip()
+        headerOfProgram = code[0:classConstruction]
         header_segments = ["Author", "Submission Date", "Purpose", "Academic Honesty"]
+        headerValue = 0
         i = 0
         while i < len(header_segments) - 1:
-            try:
-                headerOfProgram.index(header_segments[i])
+            if header_segments[i] in headerOfProgram:
                 headerValue = 1
-            except:
+            else:
                 headerValue = 0
                 i = len(header_segments)
             i += 1
+        
+        return headerValue
 
     def generateResults(self, ob):
         with open("results/" + self.labName + ".csv", "wb") as csvfile:
@@ -108,8 +115,8 @@ class Checker():
             print assignment, fileName
 
             compileValue = 0
-            headerValue = 0
             outputValue = 0
+            headerValue = 0
             errorValue = 0
 
             try:
@@ -118,6 +125,8 @@ class Checker():
 
                 outputValue = self.outputCheck(fileName)
                 outputValue = 1
+
+                headerValue = self.headerCheck(fileName)
             except Exception as e:
                 print e
                 if str(e) == "partial credit":
@@ -130,16 +139,13 @@ class Checker():
                     outputValue = 0
                 errorValue = str(e)
 
-            try:
-                self.headerCheck(fileName)
-                headerValue = 1
-            except:
-                headerValue = 0
+
+            subprocess.call("rm sandbox/*", shell=True)
 
             studentScore["compiling"] = compileValue
-            studentScore["header"] = headerValue
             studentScore["output"] = outputValue
             studentScore["error"] = errorValue
+            studentScore["header"] = headerValue
 
             
             grade = 100
@@ -148,7 +154,7 @@ class Checker():
             else: 
                 if headerValue == 0:
                     grade -= 10
-                if studentScore["error"] != "":
+                if studentScore["error"] != 0:
                     grade -= 10
 
             studentScore["grade"] = grade
