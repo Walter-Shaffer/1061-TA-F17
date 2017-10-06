@@ -1,0 +1,8 @@
+{"header": "", "file_name": "CreditCardPayOff.java", "test_cases": [	
+	{"input": [ "10250.50", "17.25", "550.75"], "output": "Principal:Annual Interest Rate (%):Monthly Payment:Months Needed To Pay Off:22Total Amount Paid:$12116.50Total Interest Paid:$1866.00Overpayment:$102.02", "keyParts" : [22, 12116.50, 1866.00, 102.02]},
+	{"input": [ "8556.74", "29.95", "316.78"], "output": "Principal:Annual Interest Rate (%):Monthly Payment:Months Needed To Pay Off:46Total Amount Paid:$14571.88Total Interest Paid:$6015.14Overpayment:$162.25", "keyParts" : [ 46, 14571.88, 6015.14, 162.25]},
+	{"input": [ "10999.99", "9.99", "355.89"], "output": "Principal:Annual Interest Rate (%):Monthly Payment:Months Needed To Pay Off:36Total Amount Paid:$12812.04Total Interest Paid:$1812.05Overpayment:$42.05", "keyParts": [ 36, 12812.04, 1812.05, 42.05]},
+	{"input": ["8765.45", "19.3", "678.50"], "output": "Principal:Annual Interest Rate (%):Monthly Payment:Months Needed To Pay Off:15Total Amount Paid:$10177.50Total Interest Paid:$1412.05Overpayment:$272.85", "keyParts": [ 15, 10177.50, 1412.05, 272.85]},
+	{"input": ["3000.00", "10.00", "350.00"], "output": "Principal:Annual Interest Rate (%):Monthly Payment:Months Needed To Pay Off:9Total Amount Paid:$3150.00Total Interest Paid:$150.00Overpayment:$24.51", "keyParts": [ 9, 3150.00, 150.00, 24.51]}
+	]
+}

@@ -1,0 +1,1727 @@
+
+agafonovasninam---------------------------------------------------------------------------------------------------------------
+principalamount:theannualinterestrate(%):themonthlypayment:monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$18.52
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+Non formatted values found
+	22
+	12116.5
+	1866.0
+principalamount:theannualinterestrate(%):themonthlypayment:monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$51.22
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+Non formatted values found
+	46
+	14571.88
+	6015.14
+principalamount:theannualinterestrate(%):themonthlypayment:monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$11.82
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+Non formatted values found
+	36
+	12812.04
+	1812.05
+principalamount:theannualinterestrate(%):themonthlypayment:monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$40.21
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+Non formatted values found
+	15
+	10177.5
+	1412.05
+principalamount:theannualinterestrate(%):themonthlypayment:monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$7.00
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+Non formatted values found
+	9
+	3150.0
+	150.0
+partial credit on test 0; partial credit on test 1; partial credit on test 2; partial credit on test 3; partial credit on test 4; total credit from test cases(%):0.75
+
+
+
+bareandrew---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+
+bastianiiitrip---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:22totalamountpaid:$12116.5totalinterestpaid:$1866.0overpayment:$102.01
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	102.01
+Non formatted values found
+	22
+	12116.5
+	1866.0
+	102.01
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.24
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.24
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:36totalamountpaid:$12812.039999999999totalinterestpaid:$1812.04overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	1812.04
+	42.05
+Non formatted values found
+	36
+	12812.03
+	1812.04
+	42.05
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:15totalamountpaid:$10177.5totalinterestpaid:$1412.04overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	1412.04
+	272.85
+Non formatted values found
+	15
+	10177.5
+	1412.04
+	272.85
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:9totalamountpaid:$3150.0totalinterestpaid:$150.0overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	24.51
+Non formatted values found
+	9
+	3150.0
+	150.0
+	24.5
+formatting error
+
+
+
+battaglinijason---------------------------------------------------------------------------------------------------------------
+theprincipal:theannualinterestrate:themonthlypayment:principal:10250.50annualinterestrate:17.25monthlypayment:550.75monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+theprincipal:theannualinterestrate:themonthlypayment:principal:8556.74annualinterestrate:29.95monthlypayment:316.78monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+theprincipal:theannualinterestrate:themonthlypayment:principal:10999.99annualinterestrate:9.99monthlypayment:355.89monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+theprincipal:theannualinterestrate:themonthlypayment:principal:8765.45annualinterestrate:19.30monthlypayment:678.50monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+	272.85
+theprincipal:theannualinterestrate:themonthlypayment:principal:3000.00annualinterestrate:10.00monthlypayment:350.00monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+
+blaskomarkd---------------------------------------------------------------------------------------------------------------
+principle:annualinterestrate(%):monthlypayment:monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+principle:annualinterestrate(%):monthlypayment:monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+principle:annualinterestrate(%):monthlypayment:monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+principle:annualinterestrate(%):monthlypayment:monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+	272.85
+principle:annualinterestrate(%):monthlypayment:monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+
+brookskarmenj---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:22.0totalamountpaid:$12116.5totalinterestpaid:$1866.0overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	102.02
+Non formatted values found
+	22
+	12116.5
+	1866.0
+	102.02
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:46.0totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:36.0totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:15.0totalamountpaid:$10177.5totalinterestpaid:$1412.05overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	1412.05
+	272.85
+Non formatted values found
+	15
+	10177.5
+	1412.05
+	272.85
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:9.0totalamountpaid:$3150.0totalinterestpaid:$150.0overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	24.51
+Non formatted values found
+	9
+	3150.0
+	150.0
+	24.5
+formatting error
+
+
+
+caldwelljacobr---------------------------------------------------------------------------------------------------------------
+whatisyourprincipal?whatisyourannualinterestrate(%)?whatisyourmonthlypayment?principal:10250.50annualinterestrate(%):17.25monthlypayment:550.75monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+whatisyourprincipal?whatisyourannualinterestrate(%)?whatisyourmonthlypayment?principal:8556.74annualinterestrate(%):29.95monthlypayment:316.78monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+whatisyourprincipal?whatisyourannualinterestrate(%)?whatisyourmonthlypayment?principal:10999.99annualinterestrate(%):9.99monthlypayment:355.89monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+whatisyourprincipal?whatisyourannualinterestrate(%)?whatisyourmonthlypayment?principal:8765.45annualinterestrate(%):19.3monthlypayment:678.50monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+	272.85
+whatisyourprincipal?whatisyourannualinterestrate(%)?whatisyourmonthlypayment?principal:3000.00annualinterestrate(%):10.0monthlypayment:350.00monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+
+carljaisonaustin---------------------------------------------------------------------------------------------------------------
+pleaseprincipal:pleaseannualinterestrate(%):pleasemonthlypaymentprincipal:10250.5annualinterestrate(%):17.25monthlypayment:550.75monthsneededtopayoff:22.0totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+pleaseprincipal:pleaseannualinterestrate(%):pleasemonthlypaymentprincipal:8556.74annualinterestrate(%):29.95monthlypayment:316.78monthsneededtopayoff:46.0totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+pleaseprincipal:pleaseannualinterestrate(%):pleasemonthlypaymentprincipal:10999.99annualinterestrate(%):9.99monthlypayment:355.89monthsneededtopayoff:36.0totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+pleaseprincipal:pleaseannualinterestrate(%):pleasemonthlypaymentprincipal:8765.45annualinterestrate(%):19.3monthlypayment:678.5monthsneededtopayoff:15.0totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+	272.85
+pleaseprincipal:pleaseannualinterestrate(%):pleasemonthlypaymentprincipal:3000.0annualinterestrate(%):10.0monthlypayment:350.0monthsneededtopayoff:9.0totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+
+christensendanielkeith---------------------------------------------------------------------------------------------------------------
+pleasetheprincipalamountowed:pleasetheannualinterestrate:pleasethemonthlypaymentamount:principal:$10250.5annualinterestrate(%):17.25monthlypayment:$550.75monthsneededtopayoff:22totalamountpaid:$12116.5totalinterestpaid:$1866overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	102.02
+Non formatted values found
+	22
+	12116.5
+	102.02
+pleasetheprincipalamountowed:pleasetheannualinterestrate:pleasethemonthlypaymentamount:principal:$8556.74annualinterestrate(%):29.95monthlypayment:$316.78monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+pleasetheprincipalamountowed:pleasetheannualinterestrate:pleasethemonthlypaymentamount:principal:$10999.99annualinterestrate(%):9.99monthlypayment:$355.89monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+pleasetheprincipalamountowed:pleasetheannualinterestrate:pleasethemonthlypaymentamount:principal:$8765.45annualinterestrate(%):19.3monthlypayment:$678.5monthsneededtopayoff:15totalamountpaid:$10177.5totalinterestpaid:$1412.05overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	1412.05
+	272.85
+Non formatted values found
+	15
+	10177.5
+	1412.05
+	272.85
+pleasetheprincipalamountowed:pleasetheannualinterestrate:pleasethemonthlypaymentamount:principal:$3000annualinterestrate(%):10.0monthlypayment:$350monthsneededtopayoff:9totalamountpaid:$3150totalinterestpaid:$150overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	24.51
+Non formatted values found
+	9
+	24.5
+formatting error & partial credit on test 0; partial credit on test 4; total credit from test cases(%):0.85
+
+
+
+coffeepatricktodd---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate:(%)
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+Non formatted values found
+principal:annualinterestrate:(%)
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+Non formatted values found
+principal:annualinterestrate:(%)
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+Non formatted values found
+principal:annualinterestrate:(%)
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+Non formatted values found
+principal:annualinterestrate:(%)
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+Non formatted values found
+partial credit on test 0; partial credit on test 1; partial credit on test 2; partial credit on test 3; partial credit on test 4; total credit from test cases(%):0.2
+
+
+
+coppenbargerethancondit---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:$22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:$46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:$36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:$15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+	272.85
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:$9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+
+desaianeri---------------------------------------------------------------------------------------------------------------
+theprincipalamount,theamountofmoneyownedonthecreditcard,e.g.,$1234.50:theannualinterestrate,e.g.,2.10%,(%):themonthlypayment,e.g.,$1988.00:principal:10250.5annualinterestrate(%):17.25monthlypayment:550.75monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+theprincipalamount,theamountofmoneyownedonthecreditcard,e.g.,$1234.50:theannualinterestrate,e.g.,2.10%,(%):themonthlypayment,e.g.,$1988.00:principal:8556.74annualinterestrate(%):29.95monthlypayment:316.78monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+theprincipalamount,theamountofmoneyownedonthecreditcard,e.g.,$1234.50:theannualinterestrate,e.g.,2.10%,(%):themonthlypayment,e.g.,$1988.00:principal:10999.99annualinterestrate(%):9.99monthlypayment:355.89monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+theprincipalamount,theamountofmoneyownedonthecreditcard,e.g.,$1234.50:theannualinterestrate,e.g.,2.10%,(%):themonthlypayment,e.g.,$1988.00:principal:8765.45annualinterestrate(%):19.3monthlypayment:678.5monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+	272.85
+theprincipalamount,theamountofmoneyownedonthecreditcard,e.g.,$1234.50:theannualinterestrate,e.g.,2.10%,(%):themonthlypayment,e.g.,$1988.00:principal:3000.0annualinterestrate(%):10.0monthlypayment:350.0monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+
+doanjackie---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(%):
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+Non formatted values found
+principal:annualinterestrate(%):
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+Non formatted values found
+principal:annualinterestrate(%):
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+Non formatted values found
+principal:annualinterestrate(%):
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+Non formatted values found
+principal:annualinterestrate(%):
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+Non formatted values found
+partial credit on test 0; partial credit on test 1; partial credit on test 2; partial credit on test 3; partial credit on test 4; total credit from test cases(%):0.2
+
+
+
+dobrenenalex---------------------------------------------------------------------------------------------------------------
+principle:annualinterestpaid(%):monthlypayment:monthsneededtopayoff:22totalammountpaid:$12116.50totalinterestpaid:$1866.00overpay:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+principle:annualinterestpaid(%):monthlypayment:monthsneededtopayoff:46totalammountpaid:$14571.88totalinterestpaid:$6015.14overpay:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+principle:annualinterestpaid(%):monthlypayment:monthsneededtopayoff:36totalammountpaid:$12812.04totalinterestpaid:$1812.05overpay:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+principle:annualinterestpaid(%):monthlypayment:monthsneededtopayoff:15totalammountpaid:$10177.50totalinterestpaid:$1412.05overpay:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+	272.85
+principle:annualinterestpaid(%):monthlypayment:monthsneededtopayoff:9totalammountpaid:$3150.00totalinterestpaid:$150.00overpay:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+
+frazierjraj---------------------------------------------------------------------------------------------------------------
+principalamount:intrestratepercentage:monthlypayment:monthsneededtopayoff:22.0totalamountpaid:$12116.50intrestpaid:$1866.00overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+principalamount:intrestratepercentage:monthlypayment:monthsneededtopayoff:46.0totalamountpaid:$14571.88intrestpaid:$6015.14overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+principalamount:intrestratepercentage:monthlypayment:monthsneededtopayoff:36.0totalamountpaid:$12812.04intrestpaid:$1812.05overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+principalamount:intrestratepercentage:monthlypayment:monthsneededtopayoff:15.0totalamountpaid:$10177.50intrestpaid:$1412.05overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+	272.85
+principalamount:intrestratepercentage:monthlypayment:monthsneededtopayoff:9.0totalamountpaid:$3150.00intrestpaid:$150.00overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+
+gosnelljacksonl---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(/):monthlypayment:monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+principal:annualinterestrate(/):monthlypayment:monthsneededtopayoff:45totalamountpaid:$14571.880totalinterestpaid:$6015.1399999999990overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	162.25
+Non formatted values found
+	14571.88
+	6015.13
+	162.25
+principal:annualinterestrate(/):monthlypayment:monthsneededtopayoff:36totalamountpaid:$12812.0399999999990totalinterestpaid:$1812.04999999999930overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	42.05
+Non formatted values found
+	36
+	12812.03
+	1812.04
+	42.05
+principal:annualinterestrate(/):monthlypayment:monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.04999999999930overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	272.85
+Non formatted values found
+	15
+	10177.5
+	1412.04
+	272.85
+principal:annualinterestrate(/):monthlypayment:monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+formatting error & partial credit on test 1; total credit from test cases(%):0.95
+
+
+
+griffiththomasc---------------------------------------------------------------------------------------------------------------
+
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+Non formatted values found
+
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+Non formatted values found
+
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+Non formatted values found
+
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+Non formatted values found
+
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+Non formatted values found
+partial credit on test 0; partial credit on test 1; partial credit on test 2; partial credit on test 3; partial credit on test 4; total credit from test cases(%):0.2
+
+
+
+gundrybrysonn---------------------------------------------------------------------------------------------------------------
+whatistheprincipal?whatistheannualintrestrate(%)?whatisthemonthlypayment?principal:10250.5annualinterestrate(%):17.25monthlypayment:550.75monthsneededtopayoff:22.0totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+whatistheprincipal?whatistheannualintrestrate(%)?whatisthemonthlypayment?principal:8556.74annualinterestrate(%):29.95monthlypayment:316.78monthsneededtopayoff:46.0totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+whatistheprincipal?whatistheannualintrestrate(%)?whatisthemonthlypayment?principal:10999.99annualinterestrate(%):9.99monthlypayment:355.89monthsneededtopayoff:36.0totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+whatistheprincipal?whatistheannualintrestrate(%)?whatisthemonthlypayment?principal:8765.45annualinterestrate(%):19.3monthlypayment:678.5monthsneededtopayoff:15.0totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+	272.85
+whatistheprincipal?whatistheannualintrestrate(%)?whatisthemonthlypayment?principal:3000.0annualinterestrate(%):10.0monthlypayment:350.0monthsneededtopayoff:9.0totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+
+hallharrisonc---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(%):
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+Non formatted values found
+principal:annualinterestrate(%):
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+Non formatted values found
+principal:annualinterestrate(%):
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+Non formatted values found
+principal:annualinterestrate(%):
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+Non formatted values found
+principal:annualinterestrate(%):
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+Non formatted values found
+partial credit on test 0; partial credit on test 1; partial credit on test 2; partial credit on test 3; partial credit on test 4; total credit from test cases(%):0.2
+
+
+
+halsethcameronm---------------------------------------------------------------------------------------------------------------
+avalueforprincipal:apercentvalueforannualinterestrate:avalueformonthlypayment:principal:10250.5annualinterestrate:17.25monthlypayment:550.75monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$18.52
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+Non formatted values found
+	22
+	12116.5
+	1866.0
+avalueforprincipal:apercentvalueforannualinterestrate:avalueformonthlypayment:principal:8556.74annualinterestrate:29.95monthlypayment:316.78monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$51.22
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+Non formatted values found
+	46
+	14571.88
+	6015.14
+avalueforprincipal:apercentvalueforannualinterestrate:avalueformonthlypayment:principal:10999.99annualinterestrate:9.99monthlypayment:355.89monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$11.82
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+Non formatted values found
+	36
+	12812.04
+	1812.05
+avalueforprincipal:apercentvalueforannualinterestrate:avalueformonthlypayment:principal:8765.45annualinterestrate:19.3monthlypayment:678.5monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$40.21
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+Non formatted values found
+	15
+	10177.5
+	1412.05
+avalueforprincipal:apercentvalueforannualinterestrate:avalueformonthlypayment:principal:3000.0annualinterestrate:10.0monthlypayment:350.0monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$7.00
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+Non formatted values found
+	9
+	3150.0
+	150.0
+partial credit on test 0; partial credit on test 1; partial credit on test 2; partial credit on test 3; partial credit on test 4; total credit from test cases(%):0.75
+
+
+
+hammondmadisonl---------------------------------------------------------------------------------------------------------------
+principalamount:theannualinterestrate:monthlypayment:principal:10250.50annualinterestrate(%):17.25monthlypayment:550.75monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+principalamount:theannualinterestrate:monthlypayment:principal:8556.74annualinterestrate(%):29.95monthlypayment:316.78monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+principalamount:theannualinterestrate:monthlypayment:principal:10999.99annualinterestrate(%):9.99monthlypayment:355.89monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+principalamount:theannualinterestrate:monthlypayment:principal:8765.45annualinterestrate(%):19.3monthlypayment:678.50monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+	272.85
+principalamount:theannualinterestrate:monthlypayment:principal:3000.00annualinterestrate(%):10.0monthlypayment:350.00monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+
+hartmonical---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+
+heldmatthewj---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+
+hennessytaylor---------------------------------------------------------------------------------------------------------------
+pleasethefollowingdata:principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:22totalamountpaid:$12116.50.totalinterestpaid:$1866.00.overpayment:$102.02.
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+pleasethefollowingdata:principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:46totalamountpaid:$14571.88.totalinterestpaid:$6015.14.overpayment:$162.25.
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+pleasethefollowingdata:principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:36totalamountpaid:$12812.04.totalinterestpaid:$1812.05.overpayment:$42.05.
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+pleasethefollowingdata:principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:15totalamountpaid:$10177.50.totalinterestpaid:$1412.05.overpayment:$272.85.
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+	272.85
+pleasethefollowingdata:principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:9totalamountpaid:$3150.00.totalinterestpaid:$150.00.overpayment:$24.51.
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+
+hickschristopheralan---------------------------------------------------------------------------------------------------------------
+pleaseyourammountowed.example5000.00pleaseyourannualintrestrate.example5.50%monthlypaymentprincipal:10250.50annualinterestrate(%):17.25monthlypayment:550.75monthsneededtopayoff:22totalamountpaid:$12116.50totalintrestpaid:$1866.00overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+pleaseyourammountowed.example5000.00pleaseyourannualintrestrate.example5.50%monthlypaymentprincipal:8556.74annualinterestrate(%):29.95monthlypayment:316.78monthsneededtopayoff:46totalamountpaid:$14571.88totalintrestpaid:$6015.14overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+pleaseyourammountowed.example5000.00pleaseyourannualintrestrate.example5.50%monthlypaymentprincipal:10999.99annualinterestrate(%):9.99monthlypayment:355.89monthsneededtopayoff:36totalamountpaid:$12812.04totalintrestpaid:$1812.05overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+pleaseyourammountowed.example5000.00pleaseyourannualintrestrate.example5.50%monthlypaymentprincipal:8765.45annualinterestrate(%):19.3monthlypayment:678.50monthsneededtopayoff:15totalamountpaid:$10177.50totalintrestpaid:$1412.05overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+	272.85
+pleaseyourammountowed.example5000.00pleaseyourannualintrestrate.example5.50%monthlypaymentprincipal:3000.00annualinterestrate(%):10.0monthlypayment:350.00monthsneededtopayoff:9totalamountpaid:$3150.00totalintrestpaid:$150.00overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+
+hoganiiijames---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+
+hollowayjeremy---------------------------------------------------------------------------------------------------------------
+principalamount:annualinterestrate:monthlypayment:principal:10250.50annualinterestrate(%):17.25monthlypayment:550.75monthsneededtopayoff:22totalamountpaid:$12116.50$totalinterestpaid:$1866.00overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+principalamount:annualinterestrate:monthlypayment:principal:8556.74annualinterestrate(%):29.95monthlypayment:316.78monthsneededtopayoff:46totalamountpaid:$14571.88$totalinterestpaid:$6015.14overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+principalamount:annualinterestrate:monthlypayment:principal:10999.99annualinterestrate(%):9.99monthlypayment:355.89monthsneededtopayoff:36totalamountpaid:$12812.04$totalinterestpaid:$1812.05overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+principalamount:annualinterestrate:monthlypayment:principal:8765.45annualinterestrate(%):19.3monthlypayment:678.50monthsneededtopayoff:15totalamountpaid:$10177.50$totalinterestpaid:$1412.05overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+	272.85
+principalamount:annualinterestrate:monthlypayment:principal:3000.00annualinterestrate(%):10.0monthlypayment:350.00monthsneededtopayoff:9totalamountpaid:$3150.00$totalinterestpaid:$150.00overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+
+hollowelljohn---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+
+ingmiregabrielalexander---------------------------------------------------------------------------------------------------------------
+principalamount:theannualinterestrate(%):monthlypayment:monthsneededtopayoff:22.0totalamountpaid:$12014.48totalinterest:$1763.98overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	102.02
+Non formatted values found
+	22
+	102.02
+principalamount:theannualinterestrate(%):monthlypayment:monthsneededtopayoff:46.0totalamountpaid:$14409.63totalinterest:$5852.89overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	162.25
+Non formatted values found
+	46
+	162.25
+principalamount:theannualinterestrate(%):monthlypayment:monthsneededtopayoff:36.0totalamountpaid:$12769.99totalinterest:$1770overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	42.05
+Non formatted values found
+	36
+	42.05
+principalamount:theannualinterestrate(%):monthlypayment:monthsneededtopayoff:15.0totalamountpaid:$9904.65totalinterest:$1139.2overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	272.85
+Non formatted values found
+	15
+	272.85
+principalamount:theannualinterestrate(%):monthlypayment:monthsneededtopayoff:9.0totalamountpaid:$3125.49totalinterest:$125.49overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	24.51
+Non formatted values found
+	9
+	24.5
+partial credit on test 0; partial credit on test 1; partial credit on test 2; partial credit on test 3; partial credit on test 4; total credit from test cases(%):0.5
+
+
+
+kollurumanu---------------------------------------------------------------------------------------------------------------
+aprincipalamount:annualinterestrate(%):monthlypayment:monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+aprincipalamount:annualinterestrate(%):monthlypayment:monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+aprincipalamount:annualinterestrate(%):monthlypayment:monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+aprincipalamount:annualinterestrate(%):monthlypayment:monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+	272.85
+aprincipalamount:annualinterestrate(%):monthlypayment:monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+
+lambmitchellj---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+
+lamoureuxkylej---------------------------------------------------------------------------------------------------------------
+principle:annualinterestrate(%):monthlypayment:monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+principle:annualinterestrate(%):monthlypayment:monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+principle:annualinterestrate(%):monthlypayment:monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+principle:annualinterestrate(%):monthlypayment:monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+	272.85
+principle:annualinterestrate(%):monthlypayment:monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+
+lathamivspalding---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+
+maggardjacko---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(%):monthlypaymentmonthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+principal:annualinterestrate(%):monthlypaymentmonthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+principal:annualinterestrate(%):monthlypaymentmonthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+principal:annualinterestrate(%):monthlypaymentmonthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+	272.85
+principal:annualinterestrate(%):monthlypaymentmonthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+
+mcdonoughjrdavidj---------------------------------------------------------------------------------------------------------------
+theprinciple:theannualinterestrate(%):themonthlypayment:principal:10250.50annualinterestrate:17.25monthlypayment:550.75monthsneededtopayoffdebt:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+theprinciple:theannualinterestrate(%):themonthlypayment:principal:8556.74annualinterestrate:29.95monthlypayment:316.78monthsneededtopayoffdebt:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+theprinciple:theannualinterestrate(%):themonthlypayment:principal:10999.99annualinterestrate:9.99monthlypayment:355.89monthsneededtopayoffdebt:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+theprinciple:theannualinterestrate(%):themonthlypayment:principal:8765.45annualinterestrate:19.3monthlypayment:678.50monthsneededtopayoffdebt:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+	272.85
+theprinciple:theannualinterestrate(%):themonthlypayment:principal:3000.00annualinterestrate:10.0monthlypayment:350.00monthsneededtopayoffdebt:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+
+meadewil---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+
+morsetimothyj---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+
+okinedokevin---------------------------------------------------------------------------------------------------------------
+pleaseprincipal:pleaseinterestrate:pleasemonthlypayment:principal:10250.5annualinterestrate(%):17.25monthlypayment:550.75monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+pleaseprincipal:pleaseinterestrate:pleasemonthlypayment:principal:8556.74annualinterestrate(%):29.95monthlypayment:316.78monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+pleaseprincipal:pleaseinterestrate:pleasemonthlypayment:principal:10999.99annualinterestrate(%):9.99monthlypayment:355.89monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+pleaseprincipal:pleaseinterestrate:pleasemonthlypayment:principal:8765.45annualinterestrate(%):19.3monthlypayment:678.5monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+	272.85
+pleaseprincipal:pleaseinterestrate:pleasemonthlypayment:principal:3000.0annualinterestrate(%):10.0monthlypayment:350.0monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+
+orecchiapaul---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+
+owensjuliaf---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+
+padgettandrew---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+	272.85
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+
+pardoalejandro---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+
+picardyshawne---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+
+politedayvonterrell---------------------------------------------------------------------------------------------------------------
+what'stheprincipal?what'sannualinterestrate?whatareyoupayingmonthly?principal:10250.50annualinterestrate(%):17.25monthlypayment:550.75monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+what'stheprincipal?what'sannualinterestrate?whatareyoupayingmonthly?principal:8556.74annualinterestrate(%):29.95monthlypayment:316.78monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+what'stheprincipal?what'sannualinterestrate?whatareyoupayingmonthly?principal:10999.99annualinterestrate(%):9.99monthlypayment:355.89monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+what'stheprincipal?what'sannualinterestrate?whatareyoupayingmonthly?principal:8765.45annualinterestrate(%):19.30monthlypayment:678.50monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+	272.85
+what'stheprincipal?what'sannualinterestrate?whatareyoupayingmonthly?principal:3000.00annualinterestrate(%):10.00monthlypayment:350.00monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+
+pottsemilya---------------------------------------------------------------------------------------------------------------
+theamountofmoneyowedoncreditcard(principle):theannualinterestrate(aspercent):themonthlypayment:principle:10250.5annualinterestrate(%):17.25monthlypayment:550.75monthsneededtopayoff:22totalamountpaided:$12116.50totalinterstpaided:$1866.00overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+theamountofmoneyowedoncreditcard(principle):theannualinterestrate(aspercent):themonthlypayment:principle:8556.74annualinterestrate(%):29.95monthlypayment:316.78monthsneededtopayoff:46totalamountpaided:$14571.88totalinterstpaided:$6015.14overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+theamountofmoneyowedoncreditcard(principle):theannualinterestrate(aspercent):themonthlypayment:principle:10999.99annualinterestrate(%):9.99monthlypayment:355.89monthsneededtopayoff:36totalamountpaided:$12812.04totalinterstpaided:$1812.05overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+theamountofmoneyowedoncreditcard(principle):theannualinterestrate(aspercent):themonthlypayment:principle:8765.45annualinterestrate(%):19.3monthlypayment:678.5monthsneededtopayoff:15totalamountpaided:$10177.50totalinterstpaided:$1412.05overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+	272.85
+theamountofmoneyowedoncreditcard(principle):theannualinterestrate(aspercent):themonthlypayment:principle:3000.0annualinterestrate(%):10.0monthlypayment:350.0monthsneededtopayoff:9totalamountpaided:$3150.00totalinterstpaided:$150.00overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+
+robertsondavis---------------------------------------------------------------------------------------------------------------
+principal:$annualinterestrate(%):monthlypayment:$monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+principal:$annualinterestrate(%):monthlypayment:$monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+principal:$annualinterestrate(%):monthlypayment:$monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+principal:$annualinterestrate(%):monthlypayment:$monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+	272.85
+principal:$annualinterestrate(%):monthlypayment:$monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+
+shealylydiae---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+
+singletaryhunterl---------------------------------------------------------------------------------------------------------------
+principalamount:annualinterestrate(%):monthlypayment:principal:$10250.5annualinterestrate(%):17.25monthlypayment$550.75monthsneededtopayoff:22totalamountpaid:$12116.5totalinterestpaid$1866.0overpayment:$102.01910636017237
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+Non formatted values found
+	22
+	12116.5
+	1866.0
+	102.01
+principalamount:annualinterestrate(%):monthlypayment:principal:$8556.74annualinterestrate(%):29.95monthlypayment$316.78monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid$6015.139999999999overpayment:$162.24850133735526
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+Non formatted values found
+	46
+	14571.88
+	6015.13
+	162.24
+principalamount:annualinterestrate(%):monthlypayment:principal:$10999.99annualinterestrate(%):9.99monthlypayment$355.89monthsneededtopayoff:36totalamountpaid:$12812.039999999999totalinterestpaid$1812.0499999999993overpayment:$42.05040600991924
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+Non formatted values found
+	36
+	12812.03
+	1812.04
+	42.05
+principalamount:annualinterestrate(%):monthlypayment:principal:$8765.45annualinterestrate(%):19.3monthlypayment$678.5monthsneededtopayoff:15totalamountpaid:$10177.5totalinterestpaid$1412.0499999999993overpayment:$272.8547182715629
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+Non formatted values found
+	15
+	10177.5
+	1412.04
+	272.85
+principalamount:annualinterestrate(%):monthlypayment:principal:$3000.0annualinterestrate(%):10.0monthlypayment$350.0monthsneededtopayoff:9totalamountpaid:$3150.0totalinterestpaid$150.0overpayment:$24.51421211341858
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+Non formatted values found
+	9
+	3150.0
+	150.0
+	24.5
+formatting error
+
+
+
+smithzac---------------------------------------------------------------------------------------------------------------
+whatisyourprincipal?whatisyourannualinterestrate?whatisyourmonthlypayment?principal:10250.50annualinterestrate(%):17.25monthlypayment:550.75monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+whatisyourprincipal?whatisyourannualinterestrate?whatisyourmonthlypayment?principal:8556.74annualinterestrate(%):29.95monthlypayment:316.78monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+whatisyourprincipal?whatisyourannualinterestrate?whatisyourmonthlypayment?principal:10999.99annualinterestrate(%):9.99monthlypayment:355.89monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+whatisyourprincipal?whatisyourannualinterestrate?whatisyourmonthlypayment?principal:8765.45annualinterestrate(%):19.3monthlypayment:678.50monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+	272.85
+whatisyourprincipal?whatisyourannualinterestrate?whatisyourmonthlypayment?principal:3000.00annualinterestrate(%):10.0monthlypayment:350.00monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+
+stricklandjacoba---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+
+tizikally---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate:monthlypayment:principal:10250.5annualinterestrate(%):17.25monthlypayment:550.75monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+principal:annualinterestrate:monthlypayment:principal:8556.74annualinterestrate(%):29.95monthlypayment:316.78monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+principal:annualinterestrate:monthlypayment:principal:10999.99annualinterestrate(%):9.99monthlypayment:355.89monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+principal:annualinterestrate:monthlypayment:principal:8765.45annualinterestrate(%):19.3monthlypayment:678.5monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+	272.85
+principal:annualinterestrate:monthlypayment:principal:3000.0annualinterestrate(%):10.0monthlypayment:350.0monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+
+turnerelizabethmarie---------------------------------------------------------------------------------------------------------------
+theprincipalamount:theannualinterestrate(%):themonthlypayment:principal:10250.5annualinterestrate(%):17.25monthlypayment:550.75monthsneededtopayoff:22totalamountpaid:$12014.48totalinterestpaid:$1763.98overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	102.02
+Non formatted values found
+	22
+	102.02
+theprincipalamount:theannualinterestrate(%):themonthlypayment:principal:8556.74annualinterestrate(%):29.95monthlypayment:316.78monthsneededtopayoff:46totalamountpaid:$14409.63totalinterestpaid:$5852.89overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	162.25
+Non formatted values found
+	46
+	162.25
+theprincipalamount:theannualinterestrate(%):themonthlypayment:principal:10999.99annualinterestrate(%):9.99monthlypayment:355.89monthsneededtopayoff:36totalamountpaid:$12769.99totalinterestpaid:$1770.00overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	42.05
+Non formatted values found
+	36
+	42.05
+theprincipalamount:theannualinterestrate(%):themonthlypayment:principal:8765.45annualinterestrate(%):19.3monthlypayment:678.5monthsneededtopayoff:15totalamountpaid:$9904.65totalinterestpaid:$1139.20overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	272.85
+Non formatted values found
+	15
+	272.85
+theprincipalamount:theannualinterestrate(%):themonthlypayment:principal:3000.0annualinterestrate(%):10.0monthlypayment:350.0monthsneededtopayoff:9totalamountpaid:$3125.49totalinterestpaid:$125.49overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	24.51
+Non formatted values found
+	9
+	24.5
+partial credit on test 0; partial credit on test 1; partial credit on test 2; partial credit on test 3; partial credit on test 4; total credit from test cases(%):0.5
+
+
+
+vonkellerbenjaminjosef---------------------------------------------------------------------------------------------------------------
+whatistheprincipalonthecard?whatistheannualinterestrate?whatisyourmonthlypayment?principal:$10250.50annualinterestrate(%):17.25monthlypayment:$550.75monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+whatistheprincipalonthecard?whatistheannualinterestrate?whatisyourmonthlypayment?principal:$8556.74annualinterestrate(%):29.95monthlypayment:$316.78monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+whatistheprincipalonthecard?whatistheannualinterestrate?whatisyourmonthlypayment?principal:$10999.99annualinterestrate(%):9.99monthlypayment:$355.89monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+whatistheprincipalonthecard?whatistheannualinterestrate?whatisyourmonthlypayment?principal:$8765.45annualinterestrate(%):19.3monthlypayment:$678.50monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+	272.85
+whatistheprincipalonthecard?whatistheannualinterestrate?whatisyourmonthlypayment?principal:$3000.00annualinterestrate(%):10.0monthlypayment:$350.00monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+
+wangjeffrey---------------------------------------------------------------------------------------------------------------
+indollars($),howmuchcreditcarddebthaveyoumanagedtorackup?inpercent(%),howmuchisyourcreditcard'sannualinterestrate?indollars($),howmuchdoyoupayforeachmonthlypayment?principal:10250.5annualinterestrate(%):17.25monthlypayment:550.75monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+indollars($),howmuchcreditcarddebthaveyoumanagedtorackup?inpercent(%),howmuchisyourcreditcard'sannualinterestrate?indollars($),howmuchdoyoupayforeachmonthlypayment?principal:8556.74annualinterestrate(%):29.95monthlypayment:316.78monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+	14571.88
+	6015.14
+	162.25
+indollars($),howmuchcreditcarddebthaveyoumanagedtorackup?inpercent(%),howmuchisyourcreditcard'sannualinterestrate?indollars($),howmuchdoyoupayforeachmonthlypayment?principal:10999.99annualinterestrate(%):9.99monthlypayment:355.89monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+indollars($),howmuchcreditcarddebthaveyoumanagedtorackup?inpercent(%),howmuchisyourcreditcard'sannualinterestrate?indollars($),howmuchdoyoupayforeachmonthlypayment?principal:8765.45annualinterestrate(%):19.3monthlypayment:678.5monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+	272.85
+indollars($),howmuchcreditcarddebthaveyoumanagedtorackup?inpercent(%),howmuchisyourcreditcard'sannualinterestrate?indollars($),howmuchdoyoupayforeachmonthlypayment?principal:3000.0annualinterestrate(%):10.0monthlypayment:350.0monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+
+washingtonandret---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(%):monthly:monthsneededtopayoff:22totalamountpaid:12117.0totalinterestpaid:1866.5overpayment:$102.52
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+Non formatted values found
+	22
+principal:annualinterestrate(%):monthly:monthsneededtopayoff:46totalamountpaid:14572.0totalinterestpaid:6015.26overpayment:$162.37
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	46
+Non formatted values found
+	46
+principal:annualinterestrate(%):monthly:monthsneededtopayoff:36totalamountpaid:12813.0totalinterestpaid:1813.0100000000002overpayment:$43.01
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+Non formatted values found
+	36
+principal:annualinterestrate(%):monthly:monthsneededtopayoff:15totalamountpaid:10178.0totalinterestpaid:1412.5499999999993overpayment:$273.35
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+Non formatted values found
+	15
+principal:annualinterestrate(%):monthly:monthsneededtopayoff:9totalamountpaid:3150.0totalinterestpaid:150.0overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	24.51
+Non formatted values found
+	9
+	3150.0
+	150.0
+	24.5
+formatting error & partial credit on test 0; partial credit on test 1; partial credit on test 2; partial credit on test 3; total credit from test cases(%):0.4
+
+
+
+weglarzeliaskjaergaard---------------------------------------------------------------------------------------------------------------
+whatistheprincipal?whatistheannualinterestrate?whatisyourmonthlypaymentprincipal:10250.5annualinterestrate(%):17.25monthlypayment:550.75monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+needed values:  22 12116.5 1866.0 102.02
+Formatted values found
+	22
+	12116.50
+	1866.00
+	102.02
+whatistheprincipal?whatistheannualinterestrate?whatisyourmonthlypaymentprincipal:8556.74annualinterestrate(%):29.95monthlypayment:316.78monthsneededtopayoff:45totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+needed values:  46 14571.88 6015.14 162.25
+Formatted values found
+	14571.88
+	6015.14
+	162.25
+Non formatted values found
+	14571.88
+	6015.14
+	162.25
+whatistheprincipal?whatistheannualinterestrate?whatisyourmonthlypaymentprincipal:10999.99annualinterestrate(%):9.99monthlypayment:355.89monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+needed values:  36 12812.04 1812.05 42.05
+Formatted values found
+	36
+	12812.04
+	1812.05
+	42.05
+whatistheprincipal?whatistheannualinterestrate?whatisyourmonthlypaymentprincipal:8765.45annualinterestrate(%):19.3monthlypayment:678.5monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+needed values:  15 10177.5 1412.05 272.85
+Formatted values found
+	15
+	10177.50
+	1412.05
+	272.85
+whatistheprincipal?whatistheannualinterestrate?whatisyourmonthlypaymentprincipal:3000.0annualinterestrate(%):10.0monthlypayment:350.0monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+needed values:  9 3150.0 150.0 24.51
+Formatted values found
+	9
+	3150.00
+	150.00
+	24.51
+partial credit on test 1; total credit from test cases(%):0.95
+
+
+
+williamsjoshuaj---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+
+wongjackyf---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+
+wrightheatheri---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
+
+xuejohn---------------------------------------------------------------------------------------------------------------
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:22totalamountpaid:$12116.50totalinterestpaid:$1866.00overpayment:$102.02
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:46totalamountpaid:$14571.88totalinterestpaid:$6015.14overpayment:$162.25
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:36totalamountpaid:$12812.04totalinterestpaid:$1812.05overpayment:$42.05
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:15totalamountpaid:$10177.50totalinterestpaid:$1412.05overpayment:$272.85
+principal:annualinterestrate(%):monthlypayment:monthsneededtopayoff:9totalamountpaid:$3150.00totalinterestpaid:$150.00overpayment:$24.51
