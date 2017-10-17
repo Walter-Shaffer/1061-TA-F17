@@ -46,7 +46,9 @@ class Checker():
                 outputOfProgram = subprocess.check_output("cd sandbox/ && java " + cleanedUpName.replace(".java", ""), shell=True)
             else:
                 p = subprocess.Popen("cd sandbox/ && java " + cleanedUpName.replace(".java", ""), stdin=subprocess.PIPE, stdout=subprocess.PIPE, shell=True)
-                outputOfProgram = p.communicate(case["input"])[0]
+                for el in case["input"]:
+                    p.stdin.write(str(el) + "\n")
+                outputOfProgram = p.communicate()[0]
             outputOfProgram = outputOfProgram.replace("\n", "").replace("\t", "").strip().replace(" ", "").lower()
             #print outputOfProgram
 
@@ -63,7 +65,8 @@ class Checker():
                     try:
                         for val in case["vals"]:
                             errorVal = val
-                            outputOfProgram.index(str(val))
+                            expectedVal = str(val).lower().replace(" ", "")
+                            outputOfProgram.index(expectedVal)
                         partialCredit += 1
                     except Exception as e:
                         print errorVal
@@ -119,12 +122,13 @@ class Checker():
 
             fileName = assignment.split("_")[-1]
             fileNameValue = 1
+            if "-" in fileName:
+                fileName = fileName.split("-")[0] + ".java"
+
             if fileName != self.expected_fileName:
                 fileNameValue = 0
             studentScore["file_name"] = fileNameValue
 
-            if "-" in fileName:
-                fileName = fileName.split("-")[0] + ".java"
             print assignment, fileName
 
             compileValue = 0

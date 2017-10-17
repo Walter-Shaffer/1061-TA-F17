@@ -1,0 +1,6 @@
+{"header": "", "file_name": "TemperatureConverter.java", "test_cases": [	
+	{"input": ["56", "1"], "output": "Enter the temperature in Fahrenheit: Enter the temperature scales you want to convert to: 1. Kelvin 2. Rankine 3. Reaumur 4. Celsius Enter a temperature scale: 56.0 degrees Fahrenheit is 286.48333333333335 degrees Kelvin.", "vals": ["56.0", "286.48333333333335"]},
+	{"input": ["56", "2"], "output": "Enter the temperature in Fahrenheit: Enter the temperature scales you want to convert to: 1. Kelvin 2. Rankine 3. Reaumur 4. Celsius Enter a temperature scale: 56.0 degrees Fahrenheit is 515.6700000000001 degrees Rankine.", "vals": ["56.0", "515.6700000000001"]},
+	{"input": ["113", "3"], "output": "Enter the temperature in Fahrenheit: Enter the temperature scales you want to convert to: 1. Kelvin 2. Rankine 3. Reaumur 4. Celsius Enter a temperature scale: 113.0 degrees Fahrenheit is 36.0 degrees Reaumur.", "vals": ["113.0", "36.0"]},
+	{"input": ["56", "4"], "output": "Enter the temperature in Fahrenheit: Enter the temperature scales you want to convert to: 1. Kelvin 2. Rankine 3. Reaumur 4. Celsius Enter a temperature scale: 56.0 degrees Fahrenheit is 13.333333333333334 degrees Celsius.", "vals": ["56.0", "13.333333333333334"]}]
+}
