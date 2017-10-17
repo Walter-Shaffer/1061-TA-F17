@@ -1,9 +1,9 @@
 import subprocess
 import time
 
-stuff = [56, 1]
+stuff = [3, 4]
 
-p = subprocess.Popen("cd sandbox/ && java TemperatureConverter", stdin=subprocess.PIPE, stdout=subprocess.PIPE, shell=True)
+p = subprocess.Popen("cd sandbox/ && java Drawing", stdin=subprocess.PIPE, stdout=subprocess.PIPE, shell=True)
 
 for el in stuff:
     p.stdin.write(str(el) + "\n")
