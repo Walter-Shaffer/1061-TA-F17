@@ -64,13 +64,13 @@ class Checker():
                     errorVal = ""
                     try:
                         for val in case["vals"]:
-                            errorVal = val
+                            errorVal = val.replace(" ", "")
                             expectedVal = str(val).lower().replace(" ", "")
                             outputOfProgram.index(expectedVal)
                         partialCredit += 1
                     except Exception as e:
-                        print errorVal
-                        print outputOfProgram
+                        #print errorVal
+                        #print outputOfProgram
                         errors.append(case["input"])
 
             i += 1
@@ -106,7 +106,7 @@ class Checker():
     def generateResults(self, ob):
         with open("results/" + self.labName + ".csv", "wb") as csvfile:
             #fieldnames = ob[1].keys() + ["error"]
-            fieldnames = ob[1].keys()
+            fieldnames = ob[0].keys()
             f = csv.DictWriter(csvfile, fieldnames=fieldnames)
             f.writeheader()
             for value in ob.values():
