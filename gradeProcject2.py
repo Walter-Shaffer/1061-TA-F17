@@ -4,8 +4,36 @@ import json
 import csv
 import re
 import time
+import threading
 
 specLab = str(sys.argv[1])
+
+class Command(object):
+    def __init__(self, cmd, caseInput):
+        self.cmd = cmd
+        self.caseInput = caseInput
+        self.process = None
+        self.output = ''
+
+    def run(self, timeout):
+        def target():
+            self.process = subprocess.Popen(self.cmd, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE)
+            for inputValue in self.caseInput:
+                 self.process.stdin.write(inputValue + "\n")
+                 time.sleep(.1)
+            time.sleep(1)
+            self.output, errOut = self.process.communicate()
+
+        thread = threading.Thread(target=target)
+        thread.start()
+
+        thread.join(timeout)
+        if thread.is_alive():
+            self.process.terminate()
+            thread.join()
+        return self.process.returncode, self.output
+        
+
 
 class Checker():
 
@@ -59,20 +87,20 @@ class Checker():
         formatingFlag = 0
         numOfTest = len(self.test_cases)
         while i < numOfTest:
+            printedTestOutPut = False
             case = self.test_cases[i]
             caseInput = case["input"]
             casePointValue = case["testCasePointValue"]
         
-            #I am having a issue with the timing. Mainly waiting till every thing is written to outputOfProgram
-            #Was thinking about trying to thread 
-
             cmd = 'cd sandbox/ && java ' + cleanedUpName.replace(".java", "")
-            p = subprocess.Popen(cmd, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE)
-            for inputValue in caseInput:
-                p.stdin.write(inputValue + "\n")
+            command = Command(cmd, caseInput)
+            returnCode, outputOfProgram = command.run(timeout=2)
+            #outputOfProgram = output
+            if returnCode < 0:
+                print "returncode = " + str(returnCode)
+                print "-1, Did not quit test case " + str(i)
+                earnedPoints -= 1
 
-            time.sleep(5)
-            outputOfProgram = p.communicate()[0]
             formattedOutputOfProgram = outputOfProgram
             outputOfProgram = outputOfProgram.lower().replace("\n", "").replace("\t", "").strip().replace(" ", "")
             expectedOutput = case["output"].replace(" ", "").lower()
@@ -82,8 +110,6 @@ class Checker():
             else:
                 earnedPoints += casePointValue
                 keyParts = case["keyParts"]
-
-                #print "Their outout:\n" + outputOfProgram
 
                 totalPartCount = 0
                 for part in keyParts:
@@ -100,7 +126,9 @@ class Checker():
                         partValue = partValue.lower().replace("\n", "").replace(" ", "")
                         missingPartCount = part["count"] - outputOfProgram.count(partValue)
                         if missingPartCount > 0:
-                            print "Their outout for test case " + str(i) + ":\n" + formattedOutputOfProgram
+                            if printedTestOutPut == False:
+                                print "Their output for test case " + str(i) + ":\n\tformatted\n" + formattedOutputOfProgram + "\n\tunformatted\n" + outputOfProgram + "\n"
+                                printedTestOutPut = True
                             count = part["count"]
                             deduction = casePointValue * (missingPartCount/float(totalPartCount))
                             earnedPoints -= deduction
@@ -239,7 +267,7 @@ class Checker():
                     deductions = deductions + '-' + str(self.HEADER_POINTS) + ' no header; '
                 if fileNameValue == 0:
                     grade -= self.FILE_NAME_POINTS
-                    deductions = deductions + '-' + str(self.FILE_NAME_POINTS) + ' file name wrong; '
+                    deductions = deductions + '-' + str(self.FILE_NAME_POINTS) + ' file name wrong, ' + fileName + '; '
                 #if studentScore["error"] != "":
                 #    grade -= 10
                 if formatValue == 0:
