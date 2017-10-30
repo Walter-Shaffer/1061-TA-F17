@@ -2,6 +2,8 @@ import subprocess
 import sys
 import json
 import csv
+import difflib
+import time
 
 specLab = str(sys.argv[1])
 
@@ -14,6 +16,7 @@ class Checker():
         assignmentList = subprocess.check_output("ls submissions/" + self.labName + "/", shell=True)
         assignmentList = assignmentList.split("\n")
         assignmentList = assignmentList[0:len(assignmentList) -1]
+        #assignmentList = assignmentList[10:20]
 
         return assignmentList
 
@@ -36,6 +39,11 @@ class Checker():
         subprocess.call("mv sandbox/" + originalName + " sandbox/" + cleanedUpName, shell=True)
         subprocess.call("javac -encoding ISO-8859-1 sandbox/" + cleanedUpName, shell=True)
 
+    def compare(self, stringA, stringB):    
+        difference = [li for li in list(difflib.ndiff(stringA, stringB)) if li[0] != ' ']
+
+        return difference
+
     def outputCheck(self, cleanedUpName):
         i = 0
         partialCredit = 0
@@ -50,9 +58,9 @@ class Checker():
                     p.stdin.write(str(el) + "\n")
                 outputOfProgram = p.communicate()[0]
             outputOfProgram = outputOfProgram.replace("\n", "").replace("\t", "").strip().replace(" ", "").lower()
-            #print outputOfProgram
 
             expectedOutput = case["output"].replace(" ", "").lower()
+            #print outputOfProgram
             #print expectedOutput
 
             if outputOfProgram == expectedOutput:
@@ -70,7 +78,9 @@ class Checker():
                         partialCredit += 1
                     except Exception as e:
                         #print errorVal
-                        #print outputOfProgram
+                        print "actual:", outputOfProgram
+                        print "expected:", expectedOutput
+                        #print self.compare(outputOfProgram, expectedOutput)
                         errors.append(case["input"])
 
             i += 1

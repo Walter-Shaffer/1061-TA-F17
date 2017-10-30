@@ -1,4 +1,4 @@
 {"header": "", "file_name": "TemperatureConverter.java", "test_cases": [
 	{"input": ["3", "4"], "output": "How many times do you want to repeat the figure? Indicate the number of stars (>1): **** *** ** * * ** *** **** **** *** ** * * ** *** **** **** *** ** * * ** *** ****", "vals": ["*"]},
-	{"input": ["-1"], "output": "How many times do you want to repeat the figure? Invalid Output", "vals": ["Invalid Output"]}]
+	{"input": ["-1"], "output": "How many times do you want to repeat the figure? Invalid Input", "vals": ["Invalid Input"]}]
 }
