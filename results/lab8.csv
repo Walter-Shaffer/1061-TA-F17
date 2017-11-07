@@ -1,0 +1,40 @@
+grade,numOfErrors,name,errorList
+95,1,agafonovasninam,['\tTest Passed: false\tvalue set: 0.0 radius returned: 1.0']
+100,0,bareandrew,[]
+75,5,bastianiiitrip,"['\tTest Passed: false\tvalue set: 0.0 radius returned: 1.0', '\tTest Passed: false\t (0,1,1) intersects (1,0,1): false', '\tTest Passed: false\t (1,0,1) intersects (0,1,1): false', '\tTest Passed: false\t (0,1,1) intersects (10,0,2): true', '\tTest Passed: false\t (10,0,2) intersects (10,3,4): false']"
+90,2,battaglinijason,"['\tTest Passed: false\tvalue set: -1.0 radius returned: -1.0', '\tTest Passed: false\t (10,10,3) concentric with (0,0,5): true']"
+85,3,blaskomarkd,"['\tTest Passed: false\tvalue set: 0.0 radius returned: 1.0', '\tTest Passed: false\texpected: 314.1592653589793 found: 31.41592653589793', '\tTest Passed: false\texpected: 31415.926535897932 found: 314.1592653589793']"
+100,0,caldwelljacobr,[]
+100,0,christensendanielkeith,[]
+95,1,coppenbargerethancondit,['\tTest Passed: false\texpected: 13.0 found: 32.38826948140329']
+100,0,desaianeri,[]
+100,0,doanjackie,[]
+85,3,dobrenenalex,"['\tTest Passed: false\t (10,10,3) concentric with (0,0,5): true', '\tTest Passed: false\t (0,10,5)  equals (10,10,5): true', '\tTest Passed: false\t (0,11,5)  equals (0,10,5): true']"
+100,0,frazierjraj,[]
+0,11,griffiththomasc,Command 'cd sandbox/ && java RubricCircleTester ' returned non-zero exit status 1
+0,11,grimsleymichaele,Command 'cd sandbox/ && java RubricCircleTester ' returned non-zero exit status 1
+100,0,hallharrisonc,[]
+100,0,hartmonical,[]
+100,0,heldmatthewj,[]
+100,0,hennessytaylor,[]
+90,2,hickschristopheralan,"['\tTest Passed: false\tvalue set: 0.0 radius returned: 1.0', '\tTest Passed: false\t (0,1,1) intersects (10,0,2): true']"
+100,0,hollowelljohn,[]
+90,2,lathamivspalding,"['\tTest Passed: false\t (0,10,5)  equals (10,10,5): true', '\tTest Passed: false\t (0,11,5)  equals (0,10,5): true']"
+95,1,maggardjacko,['\tTest Passed: false\tvalue set: 0.0 radius returned: 1.0']
+85,3,mcdonoughjrdavidj,"['\tTest Passed: false\tvalue set: -1.0 x returned: 1.0', '\tTest Passed: false\tvalue set: -1.0 y returned: 1.0', '\tTest Passed: false\t (10,10,5) equals (10,10,5): false']"
+0,11,meadewil,Command 'cd sandbox/ && java RubricCircleTester ' returned non-zero exit status 1
+95,1,morsetimothyj,['\tTest Passed: false\tvalue set: 0.0 radius returned: 1.0']
+100,0,orecchiapaul,[]
+100,0,padgettandrew,[]
+100,0,pardoalejandro,[]
+100,0,shealylydiae,[]
+100,0,singletaryhunterl,[]
+0,11,smithzac,Command 'cd sandbox/ && java RubricCircleTester ' returned non-zero exit status 1
+80,4,tizikally,"['\tTest Passed: false\t(1,1,1) is a unit circle: true', '\tTest Passed: false\tvalue set: 0.0 radius returned: 1.0', '\tTest Passed: false\texpected: 2.0 found: 1.0', '\tTest Passed: false\texpected: 20.0 found: 100.0']"
+100,0,vonkellerbenjaminjosef,[]
+100,0,weglarzeliaskjaergaard,[]
+100,0,williamsjoshuaj,[]
+60,8,wilsontrevon,"['\tTest Passed: false\tvalue set: 1.0 x returned: 20.0', '\tTest Passed: false\tvalue set: -1.0 x returned: 20.0', '\tTest Passed: false\tvalue set: 0.0 x returned: 20.0', '\tTest Passed: false\tvalue set: 1138.25 x returned: 20.0', '\tTest Passed: false\tvalue set: -1.0 y returned: 1.0', '\tTest Passed: false\tvalue set: 0.0 y set returned: 1.0', '\tTest Passed: false\tvalue set: 1000.8 y returned: 1.0', '\tTest Passed: false\t (0,1,1) intersects (10,0,2): true']"
+0,11,wongjackyf,Command 'cd sandbox/ && java RubricCircleTester ' returned non-zero exit status 1
+95,1,wrightheatheri,"['\tTest Passed: false\t (0,1,1) intersects (10,0,2): true']"
+100,0,xuejohn,[]
