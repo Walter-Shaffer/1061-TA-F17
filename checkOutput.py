@@ -16,9 +16,10 @@ class Checker():
         assignmentList = subprocess.check_output("ls submissions/" + self.labName + "/", shell=True)
         assignmentList = assignmentList.split("\n")
         assignmentList = assignmentList[0:len(assignmentList) -1]
-        #assignmentList = assignmentList[10:20]
 
+        #assignmentList_new = [x for x in assignmentList if "grimsley" in x]
         return assignmentList
+        #return assignmentList_new
 
     def setup(self):
         f = open("tests/" + self.labName + ".txt", "r")
@@ -80,7 +81,7 @@ class Checker():
                         #print errorVal
                         print "actual:", outputOfProgram
                         print "expected:", expectedOutput
-                        #print self.compare(outputOfProgram, expectedOutput)
+                        print self.compare(outputOfProgram, expectedOutput)
                         errors.append(case["input"])
 
             i += 1
@@ -167,7 +168,7 @@ class Checker():
                 errorValue = str(e)
 
 
-            subprocess.call("rm sandbox/*", shell=True)
+            #subprocess.call("rm sandbox/*", shell=True)
 
             studentScore["compiling"] = compileValue
             studentScore["output"] = outputValue

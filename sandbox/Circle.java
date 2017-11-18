@@ -1,12 +1,9 @@
 /*
-* Circle.java
-* Author: Andrew Bare
-* Submission Date: 10/27/17
+* [Circle].java
+* Author: [Jason Battaglini]
+* Submission Date: [10/27/17]
 *
-* Purpose: 
-* 
-* This class is a circle class that contains the characteristics
-* of a circle, and contains methods to manipulate those characteristics
+* Purpose: Calculates various measurements and properties of two circles.
 *
 * Statement of Academic Honesty:
 *
@@ -23,6 +20,9 @@
 * unless you have written consent from the instructor.
 */
 
+
+
+
 //*******************************************************
 // Circle.java
 //
@@ -31,9 +31,9 @@
 public class Circle {
 	
 
-	private double radius;       // declare the private double instance  radius
-	private double x;       // declare the private double instance  x
-	private double y;       // declare the private double instance  y
+	private double radius;// declare the private double instance  radius
+	private double x;// declare the private double instance  x
+	private double y;// declare the private double instance  y
 	
 	//----------------------------------------------
 	// Class Constructor: set the initial values of
@@ -43,7 +43,7 @@ public class Circle {
 	public Circle(double x, double y,double  radius) {
 		this.x = x;
 		this.y = y;
-		this.setRadius(radius);  	   	
+		this.radius = radius;  	   	
 	}
 	
 	
@@ -52,7 +52,7 @@ public class Circle {
 	//----------------------------------------------
 	public double getX() {
 		
-		return this.x;
+		return x;
 	}
 	
 
@@ -61,7 +61,7 @@ public class Circle {
 	//----------------------------------------------
 	public double getY() {
 		
-		return this.y;
+		return y;	
 	}
 	
 	//----------------------------------------------
@@ -69,34 +69,35 @@ public class Circle {
 	//----------------------------------------------
 	public double getRadius() {
 		
-		return this.radius;
+		return radius;
 	}
 
 	//----------------------------------------------
 	// setX - assigns a new value to x
 	//----------------------------------------------
-	public void setX(double replace) {
+	public void setX(double x) {
 		
-		this.x=replace;
+		this.x=x;
+		//x=0;
 	}
 	
 
 	//----------------------------------------------
 	// setY - assigns a new value to y
 	//----------------------------------------------
-	public void setY(double replace) {
+	public void setY(double y) {
 		
-		this.y=replace;	
+		this.y=y;	
+		//y=0;
 	}	
 	
 	
 	//----------------------------------------------
 	// setRadius - assigns a new value to radius
 	//----------------------------------------------
-	public void setRadius(double replace) {
-		//checks for correct input
-		if (replace >=0)		
-		this.radius = replace;
+	public void setRadius(double radius) {
+		
+		this.radius=radius;	
 	}
 	
 	//--------------------------------------------------------
@@ -104,7 +105,7 @@ public class Circle {
 	//--------------------------------------------------------
 	public double diameter() {
 		
-		return 2*radius;
+		return radius*2;	
 	}
 	
 
@@ -113,7 +114,7 @@ public class Circle {
 	//--------------------------------------------------------
 	public double area() {
 		
-		return Math.PI*radius*radius;
+		return Math.PI*radius*radius; 	
 	}
 
 	//--------------------------------------------------------
@@ -121,7 +122,7 @@ public class Circle {
 	//--------------------------------------------------------
 	public double perimeter() {
 		
-		return 2*Math.PI*radius;
+		return Math.PI*radius*2;	
 	}
 	
 	//--------------------------------------------------------
@@ -130,14 +131,12 @@ public class Circle {
 	//      	      otherwise.
 	//--------------------------------------------------------
 	public boolean isUnitCircle() {
-		
-		//checks if center and radius is ok
-		if (radius == 1 && this.x == 0 && this.y == 0)
-		{
+		if ((radius==1)&&(x==0)&&(y==0))
 			return true;
-		}
-		else
-			return false;
+			else
+				return false;
+		
+			
 	}
 	
 	
@@ -148,49 +147,40 @@ public class Circle {
 	//            radius: r
 	//--------------------------------------------------------
 	public String toString() {
-		return "center: (" + this.x + ", " +this.y + ")\nradius: "+ this.radius; 		
+		return ("center: ("+ getX() + "," + getY()+ ")\nradius: " + getRadius());
+		
+		
+		// Your code goes here	
+	
 	}
 	
-	//checks to see if the given circle is equal to the called circle
-	public boolean equals(Circle anotherCircle){
-		//checks to make sure ALL is correct
-		if (this.x == anotherCircle.getX()&&
-				this.y == anotherCircle.getY() &&
-				this.radius == anotherCircle.getRadius())
-		{
-			return true;
-		}
-		else
-			return false;
-	}
-	
-	//checks to see if the given circles are concentric
-	public boolean isConcentric(Circle anotherCircle)
-	{
-		//checks to make sure ALL is correct
-		if (this.x == anotherCircle.getX()&&
-				this.y == anotherCircle.getY() &&
-				this.radius != anotherCircle.getRadius())
-		{
-			return true;
-		}
-		else
-			return false;
-	}
-	
-	//calculates the distance between the centers
-	public double distance(Circle anotherCircle)
-	{
-		return Math.sqrt(Math.pow((this.x-anotherCircle.x), 2)+ Math.pow((this.y-anotherCircle.y), 2));
-	}
-	
-	//checks as to whether or not the circles intersect
-	public boolean intersects(Circle anotherCircle)
-	{
-		if (this.distance(anotherCircle)<this.radius+anotherCircle.radius)
+	public boolean isConcentric(Circle anotherCircle){ 
+		if ((this.getX() == anotherCircle.getX())&&(this.getY()==anotherCircle.getY())
+				&&(this.getRadius()>anotherCircle.getRadius())||(this.getRadius()<anotherCircle.getRadius())) 
 			return true;
 		else
-			return false;
+		return false;
 	}
+	
+	public double distance(Circle anotherCircle){
+		
+		
+		return Math.sqrt((Math.pow((this.getX()-anotherCircle.getX()),2) + Math.pow((this.getY()-anotherCircle.getY()),2)));
+		
+		
 
 }
+	
+	public boolean equals(Circle anotherCircle){
+		return (this.getRadius()==anotherCircle.getRadius())&&(this.getY()==anotherCircle.getY())&&(this.getX()==anotherCircle.getX());
+	}
+	
+	public boolean intersects(Circle anotherCircle){
+		if(this.distance(anotherCircle)<(this.getRadius()+ anotherCircle.getRadius())) 
+			return true; 
+		else 
+			return false;
+	}
+}
+//}
+

@@ -1,0 +1,1 @@
+{"files": ["Circle.java", "CircleTester.java"], "required": "RubricCircleTester.java", "output": ""}
