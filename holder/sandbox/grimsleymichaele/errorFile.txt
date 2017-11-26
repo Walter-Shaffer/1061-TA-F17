@@ -1,0 +1,42 @@
+{"compileError":"RubricCircleTester.java:365: error: cannot find symbol
+		boolean testA = (true == circle2.isConcentric(circle1));
+		                                ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle2 of type Circle
+RubricCircleTester.java:366: error: cannot find symbol
+		boolean testB = (false == circle2.isConcentric(circle3));
+		                                 ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle2 of type Circle
+RubricCircleTester.java:367: error: cannot find symbol
+		boolean testC = (false == circle3.isConcentric(circle1));
+		                                 ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle3 of type Circle
+RubricCircleTester.java:368: error: cannot find symbol
+		boolean testD = (true == circle4.isConcentric(circle3));
+		                                ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle4 of type Circle
+RubricCircleTester.java:371: error: cannot find symbol
+		System.out.println("\tTest Passed: " + testA + "\t (10,10,3) concentric with (10,10,5): " + circle2.isConcentric(circle1));
+		                                                                                                   ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle2 of type Circle
+RubricCircleTester.java:372: error: cannot find symbol
+		System.out.println("\tTest Passed: " + testB + "\t (10,10,3) concentric with (0,0,5): " + circle2.isConcentric(circle3));
+		                                                                                                 ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle2 of type Circle
+RubricCircleTester.java:373: error: cannot find symbol
+		System.out.println("\tTest Passed: " + testC + "\t (0,0,5) concentric with (10,10,5): " + circle3.isConcentric(circle1));
+		                                                                                                 ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle3 of type Circle
+RubricCircleTester.java:374: error: cannot find symbol
+		System.out.println("\tTest Passed: " + testD + "\t (0,0,4) concentric with (0,0,5): " + circle4.isConcentric(circle3));
+		                                                                                               ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle4 of type Circle
+8 errors
+"}

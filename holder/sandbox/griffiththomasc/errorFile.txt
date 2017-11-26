@@ -1,0 +1,507 @@
+{"compileError":"RubricCircleTester.java:17: error: constructor Circle in class Circle cannot be applied to given types;
+		Circle circle1= new Circle(1,1,1);  // not a unit circle
+		                ^
+  required: no arguments
+  found: int,int,int
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:18: error: constructor Circle in class Circle cannot be applied to given types;
+		Circle circle2= new Circle(0,0,1);  // a unit circle
+		                ^
+  required: no arguments
+  found: int,int,int
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:19: error: constructor Circle in class Circle cannot be applied to given types;
+		Circle circle3= new Circle(5,6,10); // not a unit circle
+		                ^
+  required: no arguments
+  found: int,int,int
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:21: error: cannot find symbol
+		boolean testA = (false == circle1.isUnitCircle());
+		                                 ^
+  symbol:   method isUnitCircle()
+  location: variable circle1 of type Circle
+RubricCircleTester.java:22: error: cannot find symbol
+		boolean testB = (true == circle2.isUnitCircle());
+		                                ^
+  symbol:   method isUnitCircle()
+  location: variable circle2 of type Circle
+RubricCircleTester.java:23: error: cannot find symbol
+		boolean testC = (false == circle3.isUnitCircle());
+		                                 ^
+  symbol:   method isUnitCircle()
+  location: variable circle3 of type Circle
+RubricCircleTester.java:27: error: cannot find symbol
+		System.out.println("\tTest Passed: " + testA + "\t(1,1,1) is a unit circle: " + circle1.isUnitCircle());
+		                                                                                       ^
+  symbol:   method isUnitCircle()
+  location: variable circle1 of type Circle
+RubricCircleTester.java:28: error: cannot find symbol
+		System.out.println("\tTest Passed: " + testB + "\t(0,0,1) is a unit circle: " + circle2.isUnitCircle());
+		                                                                                       ^
+  symbol:   method isUnitCircle()
+  location: variable circle2 of type Circle
+RubricCircleTester.java:29: error: cannot find symbol
+		System.out.println("\tTest Passed: " + testC + "\t(5,6,10) is a unit circle: " + circle3.isUnitCircle());
+		                                                                                        ^
+  symbol:   method isUnitCircle()
+  location: variable circle3 of type Circle
+RubricCircleTester.java:39: error: constructor Circle in class Circle cannot be applied to given types;
+		Circle circle= new Circle(20,1.0,1.0);
+		               ^
+  required: no arguments
+  found: int,double,double
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:43: error: cannot find symbol
+		circle.setX(x);
+		      ^
+  symbol:   method setX(double)
+  location: variable circle of type Circle
+RubricCircleTester.java:44: error: cannot find symbol
+		xReturn =  circle.getX();
+		                 ^
+  symbol:   method getX()
+  location: variable circle of type Circle
+RubricCircleTester.java:50: error: cannot find symbol
+		circle.setX(x);
+		      ^
+  symbol:   method setX(double)
+  location: variable circle of type Circle
+RubricCircleTester.java:51: error: cannot find symbol
+		xReturn =  circle.getX();
+		                 ^
+  symbol:   method getX()
+  location: variable circle of type Circle
+RubricCircleTester.java:57: error: cannot find symbol
+		circle.setX(x);
+		      ^
+  symbol:   method setX(double)
+  location: variable circle of type Circle
+RubricCircleTester.java:58: error: cannot find symbol
+		xReturn =  circle.getX();
+		                 ^
+  symbol:   method getX()
+  location: variable circle of type Circle
+RubricCircleTester.java:64: error: cannot find symbol
+		circle.setX(x);
+		      ^
+  symbol:   method setX(double)
+  location: variable circle of type Circle
+RubricCircleTester.java:65: error: cannot find symbol
+		xReturn =  circle.getX();
+		                 ^
+  symbol:   method getX()
+  location: variable circle of type Circle
+RubricCircleTester.java:77: error: constructor Circle in class Circle cannot be applied to given types;
+		Circle circle= new Circle(20,1.0,1.0);
+		               ^
+  required: no arguments
+  found: int,double,double
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:81: error: cannot find symbol
+		circle.setY(y);
+		      ^
+  symbol:   method setY(double)
+  location: variable circle of type Circle
+RubricCircleTester.java:82: error: cannot find symbol
+		yReturn =  circle.getY();
+		                 ^
+  symbol:   method getY()
+  location: variable circle of type Circle
+RubricCircleTester.java:88: error: cannot find symbol
+		circle.setY(y);
+		      ^
+  symbol:   method setY(double)
+  location: variable circle of type Circle
+RubricCircleTester.java:89: error: cannot find symbol
+		yReturn =  circle.getY();
+		                 ^
+  symbol:   method getY()
+  location: variable circle of type Circle
+RubricCircleTester.java:94: error: cannot find symbol
+		circle.setY(y);
+		      ^
+  symbol:   method setY(double)
+  location: variable circle of type Circle
+RubricCircleTester.java:95: error: cannot find symbol
+		yReturn =  circle.getY();
+		                 ^
+  symbol:   method getY()
+  location: variable circle of type Circle
+RubricCircleTester.java:101: error: cannot find symbol
+		circle.setY(y);
+		      ^
+  symbol:   method setY(double)
+  location: variable circle of type Circle
+RubricCircleTester.java:102: error: cannot find symbol
+		yReturn =  circle.getY();
+		                 ^
+  symbol:   method getY()
+  location: variable circle of type Circle
+RubricCircleTester.java:115: error: constructor Circle in class Circle cannot be applied to given types;
+		Circle circle= new Circle(20,1.0,1.0);
+		               ^
+  required: no arguments
+  found: int,double,double
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:119: error: cannot find symbol
+		circle.setRadius(radius);
+		      ^
+  symbol:   method setRadius(double)
+  location: variable circle of type Circle
+RubricCircleTester.java:120: error: cannot find symbol
+		radiusReturn =  circle.getRadius();
+		                      ^
+  symbol:   method getRadius()
+  location: variable circle of type Circle
+RubricCircleTester.java:126: error: cannot find symbol
+		circle.setRadius(radius);
+		      ^
+  symbol:   method setRadius(double)
+  location: variable circle of type Circle
+RubricCircleTester.java:127: error: cannot find symbol
+		radiusReturn =  circle.getRadius();
+		                      ^
+  symbol:   method getRadius()
+  location: variable circle of type Circle
+RubricCircleTester.java:133: error: cannot find symbol
+		circle.setRadius(radius);
+		      ^
+  symbol:   method setRadius(double)
+  location: variable circle of type Circle
+RubricCircleTester.java:134: error: cannot find symbol
+		radiusReturn =  circle.getRadius();
+		                      ^
+  symbol:   method getRadius()
+  location: variable circle of type Circle
+RubricCircleTester.java:140: error: cannot find symbol
+		circle.setRadius(radius);
+		      ^
+  symbol:   method setRadius(double)
+  location: variable circle of type Circle
+RubricCircleTester.java:141: error: cannot find symbol
+		radiusReturn =  circle.getRadius();
+		                      ^
+  symbol:   method getRadius()
+  location: variable circle of type Circle
+RubricCircleTester.java:170: error: constructor Circle in class Circle cannot be applied to given types;
+		circle1 = new Circle(x1,y1,r1);
+		          ^
+  required: no arguments
+  found: double,double,double
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:171: error: constructor Circle in class Circle cannot be applied to given types;
+		circle2 = new Circle(x2,y2,r2);
+		          ^
+  required: no arguments
+  found: double,double,double
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:172: error: cannot find symbol
+		distance = circle1.distance(circle2);
+		                  ^
+  symbol:   method distance(Circle)
+  location: variable circle1 of type Circle
+RubricCircleTester.java:178: error: constructor Circle in class Circle cannot be applied to given types;
+		circle1 = new Circle(x1,y1,r1);
+		          ^
+  required: no arguments
+  found: double,double,double
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:179: error: constructor Circle in class Circle cannot be applied to given types;
+		circle2 = new Circle(x2,y2,r2);
+		          ^
+  required: no arguments
+  found: double,double,double
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:180: error: cannot find symbol
+		distance = circle1.distance(circle2);
+		                  ^
+  symbol:   method distance(Circle)
+  location: variable circle1 of type Circle
+RubricCircleTester.java:187: error: constructor Circle in class Circle cannot be applied to given types;
+		circle1 = new Circle(x1,y1,r1);
+		          ^
+  required: no arguments
+  found: double,double,double
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:188: error: constructor Circle in class Circle cannot be applied to given types;
+		circle2 = new Circle(x2,y2,r2);
+		          ^
+  required: no arguments
+  found: double,double,double
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:189: error: cannot find symbol
+		distance = circle1.distance(circle2);
+		                  ^
+  symbol:   method distance(Circle)
+  location: variable circle1 of type Circle
+RubricCircleTester.java:198: error: constructor Circle in class Circle cannot be applied to given types;
+		circle1 = new Circle(x1,y1,r1);
+		          ^
+  required: no arguments
+  found: double,double,double
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:199: error: constructor Circle in class Circle cannot be applied to given types;
+		circle2 = new Circle(x2,y2,r2);
+		          ^
+  required: no arguments
+  found: double,double,double
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:200: error: cannot find symbol
+		distance = circle1.distance(circle2);
+		                  ^
+  symbol:   method distance(Circle)
+  location: variable circle1 of type Circle
+RubricCircleTester.java:226: error: constructor Circle in class Circle cannot be applied to given types;
+		circle = new Circle(0,0,1);
+		         ^
+  required: no arguments
+  found: int,int,int
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:227: error: cannot find symbol
+		area = circle.area();
+		             ^
+  symbol:   method area()
+  location: variable circle of type Circle
+RubricCircleTester.java:232: error: constructor Circle in class Circle cannot be applied to given types;
+		circle = new Circle(0,0,10);
+		         ^
+  required: no arguments
+  found: int,int,int
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:233: error: cannot find symbol
+		area = circle.area();
+		             ^
+  symbol:   method area()
+  location: variable circle of type Circle
+RubricCircleTester.java:238: error: constructor Circle in class Circle cannot be applied to given types;
+		circle = new Circle(0,0,100);
+		         ^
+  required: no arguments
+  found: int,int,int
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:239: error: cannot find symbol
+		area = circle.area();
+		             ^
+  symbol:   method area()
+  location: variable circle of type Circle
+RubricCircleTester.java:266: error: constructor Circle in class Circle cannot be applied to given types;
+		circle = new Circle(0,0,0.5);
+		         ^
+  required: no arguments
+  found: int,int,double
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:267: error: cannot find symbol
+		perimeter = circle.perimeter();
+		                  ^
+  symbol:   method perimeter()
+  location: variable circle of type Circle
+RubricCircleTester.java:272: error: constructor Circle in class Circle cannot be applied to given types;
+		circle = new Circle(0,0,0.05);
+		         ^
+  required: no arguments
+  found: int,int,double
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:273: error: cannot find symbol
+		perimeter = circle.perimeter();
+		                  ^
+  symbol:   method perimeter()
+  location: variable circle of type Circle
+RubricCircleTester.java:278: error: constructor Circle in class Circle cannot be applied to given types;
+		circle = new Circle(0,0,0.005);
+		         ^
+  required: no arguments
+  found: int,int,double
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:279: error: cannot find symbol
+		perimeter = circle.perimeter();
+		                  ^
+  symbol:   method perimeter()
+  location: variable circle of type Circle
+RubricCircleTester.java:308: error: constructor Circle in class Circle cannot be applied to given types;
+		circle = new Circle(0,0,radius);
+		         ^
+  required: no arguments
+  found: int,int,double
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:309: error: cannot find symbol
+		diameter = circle.diameter();
+		                 ^
+  symbol:   method diameter()
+  location: variable circle of type Circle
+RubricCircleTester.java:315: error: constructor Circle in class Circle cannot be applied to given types;
+		circle = new Circle(0,0,radius);
+		         ^
+  required: no arguments
+  found: int,int,double
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:316: error: cannot find symbol
+		diameter = circle.diameter();
+		                 ^
+  symbol:   method diameter()
+  location: variable circle of type Circle
+RubricCircleTester.java:322: error: constructor Circle in class Circle cannot be applied to given types;
+		circle = new Circle(0,0,radius);
+		         ^
+  required: no arguments
+  found: int,int,double
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:323: error: cannot find symbol
+		diameter = circle.diameter();
+		                 ^
+  symbol:   method diameter()
+  location: variable circle of type Circle
+RubricCircleTester.java:337: error: constructor Circle in class Circle cannot be applied to given types;
+		Circle circle1= new Circle(0,1,1);  
+		                ^
+  required: no arguments
+  found: int,int,int
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:338: error: constructor Circle in class Circle cannot be applied to given types;
+		Circle circle2= new Circle(1,0,1);  
+		                ^
+  required: no arguments
+  found: int,int,int
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:339: error: constructor Circle in class Circle cannot be applied to given types;
+		Circle circle3= new Circle(10,0,2);  
+		                ^
+  required: no arguments
+  found: int,int,int
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:340: error: constructor Circle in class Circle cannot be applied to given types;
+		Circle circle4= new Circle(10,3,4);  
+		                ^
+  required: no arguments
+  found: int,int,int
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:342: error: cannot find symbol
+		boolean testA = (true == circle1.intersects(circle2));
+		                                ^
+  symbol:   method intersects(Circle)
+  location: variable circle1 of type Circle
+RubricCircleTester.java:343: error: cannot find symbol
+		boolean testB = (true == circle2.intersects(circle1));
+		                                ^
+  symbol:   method intersects(Circle)
+  location: variable circle2 of type Circle
+RubricCircleTester.java:344: error: cannot find symbol
+		boolean testC = (false == circle1.intersects(circle3));
+		                                 ^
+  symbol:   method intersects(Circle)
+  location: variable circle1 of type Circle
+RubricCircleTester.java:345: error: cannot find symbol
+		boolean testD = (true == circle3.intersects(circle4));
+		                                ^
+  symbol:   method intersects(Circle)
+  location: variable circle3 of type Circle
+RubricCircleTester.java:348: error: cannot find symbol
+		System.out.println("\tTest Passed: " + testA + "\t (0,1,1) intersects (1,0,1): " + circle1.intersects(circle2));
+		                                                                                          ^
+  symbol:   method intersects(Circle)
+  location: variable circle1 of type Circle
+RubricCircleTester.java:349: error: cannot find symbol
+		System.out.println("\tTest Passed: " + testB + "\t (1,0,1) intersects (0,1,1): " + circle2.intersects(circle1));
+		                                                                                          ^
+  symbol:   method intersects(Circle)
+  location: variable circle2 of type Circle
+RubricCircleTester.java:350: error: cannot find symbol
+		System.out.println("\tTest Passed: " + testC + "\t (0,1,1) intersects (10,0,2): " + circle1.intersects(circle3));
+		                                                                                           ^
+  symbol:   method intersects(Circle)
+  location: variable circle1 of type Circle
+RubricCircleTester.java:351: error: cannot find symbol
+		System.out.println("\tTest Passed: " + testD + "\t (10,0,2) intersects (10,3,4): " + circle3.intersects(circle4));
+		                                                                                            ^
+  symbol:   method intersects(Circle)
+  location: variable circle3 of type Circle
+RubricCircleTester.java:360: error: constructor Circle in class Circle cannot be applied to given types;
+		Circle circle1= new Circle(10,10,5);  
+		                ^
+  required: no arguments
+  found: int,int,int
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:361: error: constructor Circle in class Circle cannot be applied to given types;
+		Circle circle2= new Circle(10,10,3);  
+		                ^
+  required: no arguments
+  found: int,int,int
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:362: error: constructor Circle in class Circle cannot be applied to given types;
+		Circle circle3= new Circle(0,0,5);  
+		                ^
+  required: no arguments
+  found: int,int,int
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:363: error: constructor Circle in class Circle cannot be applied to given types;
+		Circle circle4= new Circle(0,0,4);  
+		                ^
+  required: no arguments
+  found: int,int,int
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:365: error: cannot find symbol
+		boolean testA = (true == circle2.isConcentric(circle1));
+		                                ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle2 of type Circle
+RubricCircleTester.java:366: error: cannot find symbol
+		boolean testB = (false == circle2.isConcentric(circle3));
+		                                 ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle2 of type Circle
+RubricCircleTester.java:367: error: cannot find symbol
+		boolean testC = (false == circle3.isConcentric(circle1));
+		                                 ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle3 of type Circle
+RubricCircleTester.java:368: error: cannot find symbol
+		boolean testD = (true == circle4.isConcentric(circle3));
+		                                ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle4 of type Circle
+RubricCircleTester.java:371: error: cannot find symbol
+		System.out.println("\tTest Passed: " + testA + "\t (10,10,3) concentric with (10,10,5): " + circle2.isConcentric(circle1));
+		                                                                                                   ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle2 of type Circle
+RubricCircleTester.java:372: error: cannot find symbol
+		System.out.println("\tTest Passed: " + testB + "\t (10,10,3) concentric with (0,0,5): " + circle2.isConcentric(circle3));
+		                                                                                                 ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle2 of type Circle
+RubricCircleTester.java:373: error: cannot find symbol
+		System.out.println("\tTest Passed: " + testC + "\t (0,0,5) concentric with (10,10,5): " + circle3.isConcentric(circle1));
+		                                                                                                 ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle3 of type Circle
+RubricCircleTester.java:374: error: cannot find symbol
+		System.out.println("\tTest Passed: " + testD + "\t (0,0,4) concentric with (0,0,5): " + circle4.isConcentric(circle3));
+		                                                                                               ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle4 of type Circle
+RubricCircleTester.java:382: error: constructor Circle in class Circle cannot be applied to given types;
+		Circle circle1= new Circle(10,10,5);  
+		                ^
+  required: no arguments
+  found: int,int,int
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:383: error: constructor Circle in class Circle cannot be applied to given types;
+		Circle circle2= new Circle(0,10,5);  
+		                ^
+  required: no arguments
+  found: int,int,int
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:384: error: constructor Circle in class Circle cannot be applied to given types;
+		Circle circle3= new Circle(0,11,5);
+		                ^
+  required: no arguments
+  found: int,int,int
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:385: error: constructor Circle in class Circle cannot be applied to given types;
+		Circle circle4= new Circle(10,10,6);
+		                ^
+  required: no arguments
+  found: int,int,int
+  reason: actual and formal argument lists differ in length
+94 errors
+"}

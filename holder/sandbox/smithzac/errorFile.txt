@@ -1,0 +1,132 @@
+{"compileError":"RubricCircleTester.java:21: error: method isUnitCircle in class Circle cannot be applied to given types;
+		boolean testA = (false == circle1.isUnitCircle());
+		                                 ^
+  required: double,double,double
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:22: error: method isUnitCircle in class Circle cannot be applied to given types;
+		boolean testB = (true == circle2.isUnitCircle());
+		                                ^
+  required: double,double,double
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:23: error: method isUnitCircle in class Circle cannot be applied to given types;
+		boolean testC = (false == circle3.isUnitCircle());
+		                                 ^
+  required: double,double,double
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:27: error: method isUnitCircle in class Circle cannot be applied to given types;
+		System.out.println("\tTest Passed: " + testA + "\t(1,1,1) is a unit circle: " + circle1.isUnitCircle());
+		                                                                                       ^
+  required: double,double,double
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:28: error: method isUnitCircle in class Circle cannot be applied to given types;
+		System.out.println("\tTest Passed: " + testB + "\t(0,0,1) is a unit circle: " + circle2.isUnitCircle());
+		                                                                                       ^
+  required: double,double,double
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:29: error: method isUnitCircle in class Circle cannot be applied to given types;
+		System.out.println("\tTest Passed: " + testC + "\t(5,6,10) is a unit circle: " + circle3.isUnitCircle());
+		                                                                                        ^
+  required: double,double,double
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:227: error: method area in class Circle cannot be applied to given types;
+		area = circle.area();
+		             ^
+  required: double
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:233: error: method area in class Circle cannot be applied to given types;
+		area = circle.area();
+		             ^
+  required: double
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:239: error: method area in class Circle cannot be applied to given types;
+		area = circle.area();
+		             ^
+  required: double
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:267: error: method perimeter in class Circle cannot be applied to given types;
+		perimeter = circle.perimeter();
+		                  ^
+  required: double
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:273: error: method perimeter in class Circle cannot be applied to given types;
+		perimeter = circle.perimeter();
+		                  ^
+  required: double
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:279: error: method perimeter in class Circle cannot be applied to given types;
+		perimeter = circle.perimeter();
+		                  ^
+  required: double
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:309: error: method diameter in class Circle cannot be applied to given types;
+		diameter = circle.diameter();
+		                 ^
+  required: double
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:316: error: method diameter in class Circle cannot be applied to given types;
+		diameter = circle.diameter();
+		                 ^
+  required: double
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:323: error: method diameter in class Circle cannot be applied to given types;
+		diameter = circle.diameter();
+		                 ^
+  required: double
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+RubricCircleTester.java:365: error: cannot find symbol
+		boolean testA = (true == circle2.isConcentric(circle1));
+		                                ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle2 of type Circle
+RubricCircleTester.java:366: error: cannot find symbol
+		boolean testB = (false == circle2.isConcentric(circle3));
+		                                 ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle2 of type Circle
+RubricCircleTester.java:367: error: cannot find symbol
+		boolean testC = (false == circle3.isConcentric(circle1));
+		                                 ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle3 of type Circle
+RubricCircleTester.java:368: error: cannot find symbol
+		boolean testD = (true == circle4.isConcentric(circle3));
+		                                ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle4 of type Circle
+RubricCircleTester.java:371: error: cannot find symbol
+		System.out.println("\tTest Passed: " + testA + "\t (10,10,3) concentric with (10,10,5): " + circle2.isConcentric(circle1));
+		                                                                                                   ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle2 of type Circle
+RubricCircleTester.java:372: error: cannot find symbol
+		System.out.println("\tTest Passed: " + testB + "\t (10,10,3) concentric with (0,0,5): " + circle2.isConcentric(circle3));
+		                                                                                                 ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle2 of type Circle
+RubricCircleTester.java:373: error: cannot find symbol
+		System.out.println("\tTest Passed: " + testC + "\t (0,0,5) concentric with (10,10,5): " + circle3.isConcentric(circle1));
+		                                                                                                 ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle3 of type Circle
+RubricCircleTester.java:374: error: cannot find symbol
+		System.out.println("\tTest Passed: " + testD + "\t (0,0,4) concentric with (0,0,5): " + circle4.isConcentric(circle3));
+		                                                                                               ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle4 of type Circle
+23 errors
+"}

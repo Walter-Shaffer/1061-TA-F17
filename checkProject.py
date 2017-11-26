@@ -322,7 +322,7 @@ class Checker():
 
             results[i] = studentScore
             i += 1
-
+        
         self.generateResults(results)
 
 Checker(specLab).run()

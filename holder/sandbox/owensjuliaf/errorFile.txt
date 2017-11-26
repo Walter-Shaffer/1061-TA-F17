@@ -1,0 +1,168 @@
+{"compileError":"javac: file not found: CircleTester.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+"}{"compileError":"RubricCircleTester.java:21: error: 'void' type not allowed here
+		boolean testA = (false == circle1.isUnitCircle());
+		                 ^
+RubricCircleTester.java:22: error: 'void' type not allowed here
+		boolean testB = (true == circle2.isUnitCircle());
+		                 ^
+RubricCircleTester.java:23: error: 'void' type not allowed here
+		boolean testC = (false == circle3.isUnitCircle());
+		                 ^
+RubricCircleTester.java:27: error: 'void' type not allowed here
+		System.out.println("\tTest Passed: " + testA + "\t(1,1,1) is a unit circle: " + circle1.isUnitCircle());
+		                                             ^
+RubricCircleTester.java:28: error: 'void' type not allowed here
+		System.out.println("\tTest Passed: " + testB + "\t(0,0,1) is a unit circle: " + circle2.isUnitCircle());
+		                                             ^
+RubricCircleTester.java:29: error: 'void' type not allowed here
+		System.out.println("\tTest Passed: " + testC + "\t(5,6,10) is a unit circle: " + circle3.isUnitCircle());
+		                                             ^
+RubricCircleTester.java:172: error: cannot find symbol
+		distance = circle1.distance(circle2);
+		                  ^
+  symbol:   method distance(Circle)
+  location: variable circle1 of type Circle
+RubricCircleTester.java:180: error: cannot find symbol
+		distance = circle1.distance(circle2);
+		                  ^
+  symbol:   method distance(Circle)
+  location: variable circle1 of type Circle
+RubricCircleTester.java:189: error: cannot find symbol
+		distance = circle1.distance(circle2);
+		                  ^
+  symbol:   method distance(Circle)
+  location: variable circle1 of type Circle
+RubricCircleTester.java:200: error: cannot find symbol
+		distance = circle1.distance(circle2);
+		                  ^
+  symbol:   method distance(Circle)
+  location: variable circle1 of type Circle
+RubricCircleTester.java:227: error: incompatible types
+		area = circle.area();
+		                  ^
+  required: double
+  found:    void
+RubricCircleTester.java:233: error: incompatible types
+		area = circle.area();
+		                  ^
+  required: double
+  found:    void
+RubricCircleTester.java:239: error: incompatible types
+		area = circle.area();
+		                  ^
+  required: double
+  found:    void
+RubricCircleTester.java:267: error: incompatible types
+		perimeter = circle.perimeter();
+		                            ^
+  required: double
+  found:    void
+RubricCircleTester.java:273: error: incompatible types
+		perimeter = circle.perimeter();
+		                            ^
+  required: double
+  found:    void
+RubricCircleTester.java:279: error: incompatible types
+		perimeter = circle.perimeter();
+		                            ^
+  required: double
+  found:    void
+RubricCircleTester.java:309: error: incompatible types
+		diameter = circle.diameter();
+		                          ^
+  required: double
+  found:    void
+RubricCircleTester.java:316: error: incompatible types
+		diameter = circle.diameter();
+		                          ^
+  required: double
+  found:    void
+RubricCircleTester.java:323: error: incompatible types
+		diameter = circle.diameter();
+		                          ^
+  required: double
+  found:    void
+RubricCircleTester.java:342: error: cannot find symbol
+		boolean testA = (true == circle1.intersects(circle2));
+		                                ^
+  symbol:   method intersects(Circle)
+  location: variable circle1 of type Circle
+RubricCircleTester.java:343: error: cannot find symbol
+		boolean testB = (true == circle2.intersects(circle1));
+		                                ^
+  symbol:   method intersects(Circle)
+  location: variable circle2 of type Circle
+RubricCircleTester.java:344: error: cannot find symbol
+		boolean testC = (false == circle1.intersects(circle3));
+		                                 ^
+  symbol:   method intersects(Circle)
+  location: variable circle1 of type Circle
+RubricCircleTester.java:345: error: cannot find symbol
+		boolean testD = (true == circle3.intersects(circle4));
+		                                ^
+  symbol:   method intersects(Circle)
+  location: variable circle3 of type Circle
+RubricCircleTester.java:348: error: cannot find symbol
+		System.out.println("\tTest Passed: " + testA + "\t (0,1,1) intersects (1,0,1): " + circle1.intersects(circle2));
+		                                                                                          ^
+  symbol:   method intersects(Circle)
+  location: variable circle1 of type Circle
+RubricCircleTester.java:349: error: cannot find symbol
+		System.out.println("\tTest Passed: " + testB + "\t (1,0,1) intersects (0,1,1): " + circle2.intersects(circle1));
+		                                                                                          ^
+  symbol:   method intersects(Circle)
+  location: variable circle2 of type Circle
+RubricCircleTester.java:350: error: cannot find symbol
+		System.out.println("\tTest Passed: " + testC + "\t (0,1,1) intersects (10,0,2): " + circle1.intersects(circle3));
+		                                                                                           ^
+  symbol:   method intersects(Circle)
+  location: variable circle1 of type Circle
+RubricCircleTester.java:351: error: cannot find symbol
+		System.out.println("\tTest Passed: " + testD + "\t (10,0,2) intersects (10,3,4): " + circle3.intersects(circle4));
+		                                                                                            ^
+  symbol:   method intersects(Circle)
+  location: variable circle3 of type Circle
+RubricCircleTester.java:365: error: cannot find symbol
+		boolean testA = (true == circle2.isConcentric(circle1));
+		                                ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle2 of type Circle
+RubricCircleTester.java:366: error: cannot find symbol
+		boolean testB = (false == circle2.isConcentric(circle3));
+		                                 ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle2 of type Circle
+RubricCircleTester.java:367: error: cannot find symbol
+		boolean testC = (false == circle3.isConcentric(circle1));
+		                                 ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle3 of type Circle
+RubricCircleTester.java:368: error: cannot find symbol
+		boolean testD = (true == circle4.isConcentric(circle3));
+		                                ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle4 of type Circle
+RubricCircleTester.java:371: error: cannot find symbol
+		System.out.println("\tTest Passed: " + testA + "\t (10,10,3) concentric with (10,10,5): " + circle2.isConcentric(circle1));
+		                                                                                                   ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle2 of type Circle
+RubricCircleTester.java:372: error: cannot find symbol
+		System.out.println("\tTest Passed: " + testB + "\t (10,10,3) concentric with (0,0,5): " + circle2.isConcentric(circle3));
+		                                                                                                 ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle2 of type Circle
+RubricCircleTester.java:373: error: cannot find symbol
+		System.out.println("\tTest Passed: " + testC + "\t (0,0,5) concentric with (10,10,5): " + circle3.isConcentric(circle1));
+		                                                                                                 ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle3 of type Circle
+RubricCircleTester.java:374: error: cannot find symbol
+		System.out.println("\tTest Passed: " + testD + "\t (0,0,4) concentric with (0,0,5): " + circle4.isConcentric(circle3));
+		                                                                                               ^
+  symbol:   method isConcentric(Circle)
+  location: variable circle4 of type Circle
+35 errors
+"}

@@ -27,7 +27,7 @@ public class RubricCircleTester{
 		System.out.println("\tTest Passed: " + testA + "\t(1,1,1) is a unit circle: " + circle1.isUnitCircle());
 		System.out.println("\tTest Passed: " + testB + "\t(0,0,1) is a unit circle: " + circle2.isUnitCircle());
 		System.out.println("\tTest Passed: " + testC + "\t(5,6,10) is a unit circle: " + circle3.isUnitCircle());
-				
+		System.out.println("Unit Circle Test: " + (testA && testB && testC));
 		return testA && testB && testC;
 	}
 
@@ -65,7 +65,7 @@ public class RubricCircleTester{
 		xReturn =  circle.getX();
 		boolean testD =   (x == xReturn);
 		System.out.println("\tTest Passed: " + testD + "\tvalue set: " + x + " x returned: " + xReturn);
-
+		System.out.println("Getting/Setting x: " + (testA && testB && testC && testD));
 		return testA && testB && testC && testD;
 	}
 	
@@ -103,7 +103,7 @@ public class RubricCircleTester{
 		boolean testD =   (y == yReturn);
 		System.out.println("\tTest Passed: " + testD + "\tvalue set: " + y + " y returned: " + yReturn);
 
-
+		System.out.println("Getting/Setting y: " + (testA && testB && testC && testD));
 		return testA && testB && testC && testD;
 	}
 		
@@ -141,7 +141,7 @@ public class RubricCircleTester{
 		radiusReturn =  circle.getRadius();
 		boolean testD =   (radius == radiusReturn);
 		System.out.println("\tTest Passed: " + testD + "\tvalue set: " + radius + " radius returned: " + radiusReturn);
-
+		System.out.println("Getting/Setting radius: " + (testA && testB && testC && testD));
 		return testA && testB && testC && testD;
 	}
 	
@@ -201,7 +201,7 @@ public class RubricCircleTester{
 		referenceDistance = distance(x1,y1,x2,y2);
 		boolean testD = (Math.abs(distance-referenceDistance) <= error);
 		System.out.println("\tTest Passed: " + testD +"\texpected: " + referenceDistance + " found: " + distance);
-				
+		System.out.println("\tDistance Test: " + (testA && testB && testC && testD));	
 		return testA && testB && testC && testD;
 	}
 	
@@ -241,7 +241,7 @@ public class RubricCircleTester{
 		boolean testC = (Math.abs(area-referenceArea) <= error);
 		System.out.println("\tTest Passed: " + testC +"\texpected: " + referenceArea + " found: " + area);
 
-						
+		System.out.println("\tArea Test: " + (testA && testB && testC));	
 		return testA && testB && testC;
 	}
 	
@@ -281,7 +281,7 @@ public class RubricCircleTester{
 		boolean testC = (Math.abs(perimeter-referencePerimeter) <= error);
 		System.out.println("\tTest Passed: " + testC +"\texpected: " + referencePerimeter + " found: " + perimeter);
 
-						
+		System.out.println("\tPerimeter Test: " + (testA && testB && testC));		
 		return testA && testB && testC;
 	}
 	
@@ -325,7 +325,7 @@ public class RubricCircleTester{
 		boolean testC = (Math.abs(diameter-referenceDiameter) <= error);
 		System.out.println("\tTest Passed: " + testC +"\texpected: " + referenceDiameter + " found: " + diameter);
 
-						
+		System.out.println("\tDiameter Test: " + (testA && testB && testC));			
 		return testA && testB && testC;
 	}
 	
@@ -349,7 +349,7 @@ public class RubricCircleTester{
 		System.out.println("\tTest Passed: " + testB + "\t (1,0,1) intersects (0,1,1): " + circle2.intersects(circle1));
 		System.out.println("\tTest Passed: " + testC + "\t (0,1,1) intersects (10,0,2): " + circle1.intersects(circle3));
 		System.out.println("\tTest Passed: " + testD + "\t (10,0,2) intersects (10,3,4): " + circle3.intersects(circle4));
-
+		System.out.println("\tIntersection Test: " + (testA && testB && testC && testD));
 		return testA && testB && testC && testD;
 	}
 
@@ -372,7 +372,7 @@ public class RubricCircleTester{
 		System.out.println("\tTest Passed: " + testB + "\t (10,10,3) concentric with (0,0,5): " + circle2.isConcentric(circle3));
 		System.out.println("\tTest Passed: " + testC + "\t (0,0,5) concentric with (10,10,5): " + circle3.isConcentric(circle1));
 		System.out.println("\tTest Passed: " + testD + "\t (0,0,4) concentric with (0,0,5): " + circle4.isConcentric(circle3));
-
+		System.out.println("\tConcentric Circles Test: " + (testA && testB && testC && testD));
 		return testA && testB && testC && testD;
 	}
 
@@ -396,6 +396,7 @@ public class RubricCircleTester{
 		System.out.println("\tTest Passed: " + testB + "\t (0,10,5)  equals (10,10,5): " + circle2.equals(circle1));
 		System.out.println("\tTest Passed: " + testC + "\t (0,11,5)  equals (0,10,5): " +  circle3.equals(circle2));
 		System.out.println("\tTest Passed: " + testD + "\t (10,10,6) equals (10,10,5): " + circle4.equals(circle1));
+		System.out.println("\tEquals Test: " + (testA && testB && testC && testD));
 
 		return testA && testB && testC && testD;
 	}

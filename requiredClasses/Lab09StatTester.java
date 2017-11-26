@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 public class Lab09StatTester {
+	
 
 	private static boolean test1() {
 
@@ -17,7 +18,7 @@ public class Lab09StatTester {
 //		System.out.println("\tExpected:\t" + reference);
 //		System.out.println("\tFound:\t\t" + result);
 
-		if (reference.equals(result)) {
+		if (reference.replaceAll("\\s+","").equals(result.replaceAll("\\s+",""))) {
 			System.out.println("Passed");
 			return true;
 		} else {
@@ -43,7 +44,7 @@ public class Lab09StatTester {
 		//System.out.println("\tExpected:\t" + reference);
 		//System.out.println("\tFound:\t\t" + result);
 
-		if (reference.equals(result)) {
+		if (reference.replaceAll("\\s+","").equals(result.replaceAll("\\s+",""))) {
 			System.out.println("Passed");
 			return true;
 		} else {
@@ -229,11 +230,14 @@ public class Lab09StatTester {
 		boolean result = Arrays.equals(data2,  data3);
 		System.out.println("data2 equals data3: " + result);
 		
-		if (result)
+		if (result){
 			System.out.println("\nPassed");
-		else
+			return true;
+		} else{
 			System.out.println("\nFailed");
-		return result;
+			return false;
+		}
+		//return result;
 	}
 
 	/**
@@ -241,36 +245,47 @@ public class Lab09StatTester {
 	 */
 	public static void main(String[] args) {
 
-		test1();
+		int grade = 0; 
+
+		if(test1())
+			grade += 15;
 
 		System.out.println();
 
-		test2();
+		if(test2())
+			grade += 15;
 
 		System.out.println();
 
-		test3();
+		if(test3())
+			grade += 15;
 
 		System.out.println();
 
-		test4();
+		if(test4())
+			grade += 15;
 
 		System.out.println();
 
-		test5();
+		if(test5())
+			grade += 10;
 
 		System.out.println();
 
-		test6();
+		if(test6())
+			grade += 10;
 
 		System.out.println();
 
-		test7();
+		if(test7())
+			grade += 10;
 
 		System.out.println();
 
-		test8();
+		if(test8())
+			grade += 10;
 
+		System.out.print("\nGrade=" + grade);
 		
 	}
 
