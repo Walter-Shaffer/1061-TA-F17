@@ -36,7 +36,8 @@ class Checker():
             if fName in originalFiles:
                 subprocess.call("cp submissions/" + self.labName + "/" + originalFiles + " sandbox/", shell=True)
                 subprocess.call("mv sandbox/" + originalFiles + " sandbox/" + fName, shell=True)
-                sandbox = subprocess.check_output("ls ~/Documents/1061/1061-TA-F17/sandbox/", shell=True)
+                #sandbox = subprocess.check_output("ls ~/Documents/1061/1061-TA-F17/sandbox/", shell=True)
+                sandbox = subprocess.check_output("ls sandbox/", shell=True)
         subprocess.call("javac -encoding ISO-8859-1 sandbox/*.java ", shell=True)
 
     def compare(self, stringA, stringB):    
@@ -48,7 +49,8 @@ class Checker():
         output = 'null'
         for fName in self.files:
             fName = fName[:fName.rfind(".java")]
-            sandbox = subprocess.check_output("ls ~/Documents/1061/1061-TA-F17/sandbox/", shell=True)
+            #sandbox = subprocess.check_output("ls ~/Documents/1061/1061-TA-F17/sandbox/", shell=True)
+            sandbox = subprocess.check_output("ls sandbox/", shell=True)
             output = subprocess.check_output("cd sandbox/ && java " + fName + " " + commandLineArgs, shell=True)
             #print "\t\toutput " + output
             outputCleaned = output.replace("\n", "").replace("\t", "").strip().replace(" ", "")
@@ -65,6 +67,7 @@ class Checker():
     def generateResults(self, ob):
         with open("results/" + self.labName + ".csv", "wb") as csvfile:
             fieldnames = ob[0].keys()
+            fieldnames = ["name", "grade", "output", "errors", "errorList"]
             f = csv.DictWriter(csvfile, fieldnames=fieldnames)
             f.writeheader()
             for value in ob.values():

@@ -79,6 +79,7 @@ class Checker():
         with open("results/" + self.labName + ".csv", "wb") as csvfile:
             #fieldnames = ob[1].keys() + ["error"]
             fieldnames = ob[0].keys()
+            fieldnames = ["name", "grade", "output", "errors", "errorList"]
             f = csv.DictWriter(csvfile, fieldnames=fieldnames)
             f.writeheader()
             for value in ob.values():
