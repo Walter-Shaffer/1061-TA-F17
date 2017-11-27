@@ -1,0 +1,42 @@
+grade,output,errors,name,errorList
+30,Engine:Generate/getsecrettest.Passed:trueEngine:NumberconversiontestPassed:truePlayer:Nametest.Player:Gamescompletedtest.Player:Fastestwintest.Grade=30,,agafonovasninam,
+30,Engine:Generate/getsecrettest.Passed:trueEngine:NumberconversiontestPassed:truePlayer:Nametest.Player:Gamescompletedtest.Player:Fastestwintest.Grade=30,,bareandrew,
+25,Engine:Generate/getsecrettest.Passed:truebutrangeistootight.Engine:NumberconversiontestPassed:truePlayer:Nametest.Player:Gamescompletedtest.Player:Fastestwintest.Grade=25,,bastianiiitrip,
+10,Engine:Generate/getsecrettest.9961776310288934347183932098708811858180801733935036111403Passed:falseEngine:NumberconversiontestPassed:truePlayer:Nametest.Player:Gamescompletedtest.Onlycompleted0gamesPlayer:Fastestwintest.Failedonscore11Grade=10,,battaglinijason,
+0,,,blaskomarkd,Command 'cd sandbox/ && java Project3Tester' returned non-zero exit status 1
+25,Engine:Generate/getsecrettest.Passed:falsebutrangeistootight.Engine:NumberconversiontestPassed:truePlayer:Nametest.Player:Gamescompletedtest.Player:Fastestwintest.Grade=25,,caldwelljacobr,
+30,Engine:Generate/getsecrettest.Passed:trueEngine:NumberconversiontestPassed:truePlayer:Nametest.Player:Gamescompletedtest.Player:Fastestwintest.Grade=30,,christensendanielkeith,
+0,,,coppenbargerethancondit,Command 'cd sandbox/ && java Project3Tester' returned non-zero exit status 1
+20,Engine:Generate/getsecrettest.Passed:trueEngine:NumberconversiontestPassed:truePlayer:Nametest.Player:Gamescompletedtest.Onlycompleted0gamesPlayer:Fastestwintest.Failedonscore11Grade=20,,desaianeri,
+25,Engine:Generate/getsecrettest.Passed:trueEngine:NumberconversiontestPassed:falsePlayer:Nametest.Player:Gamescompletedtest.Player:Fastestwintest.Grade=25,,doanjackie,
+0,,,dobrenenalex,Command 'cd sandbox/ && java Project3Tester' returned non-zero exit status 1
+0,,,frazierjraj,Command 'cd sandbox/ && java Project3Tester' returned non-zero exit status 1
+0,,,griffiththomasc,Command 'cd sandbox/ && java Project3Tester' returned non-zero exit status 1
+0,,,grimsleymichaele,Command 'cd sandbox/ && java Project3Tester' returned non-zero exit status 1
+30,Engine:Generate/getsecrettest.Passed:trueEngine:NumberconversiontestPassed:truePlayer:Nametest.Player:Gamescompletedtest.Player:Fastestwintest.Grade=30,,hallharrisonc,
+20,Engine:Generate/getsecrettest.Passed:falseEngine:NumberconversiontestPassed:truePlayer:Nametest.Player:Gamescompletedtest.Player:Fastestwintest.Grade=20,,hartmonical,
+20,Engine:Generate/getsecrettest.Passed:falsebutrangeistootight.Engine:NumberconversiontestPassed:falsePlayer:Nametest.Player:Gamescompletedtest.Player:Fastestwintest.Grade=20,,heldmatthewj,
+15,Engine:Generate/getsecrettest.Passed:falsebutrangeistootight.Engine:NumberconversiontestPassed:falsePlayer:Nametest.Player:Gamescompletedtest.Player:Fastestwintest.Failedonscore11Grade=15,,hennessytaylor,
+15,Engine:Generate/getsecrettest.Passed:falsebutrangeistootight.Engine:NumberconversiontestPassed:falsePlayer:Nametest.Player:Gamescompletedtest.Player:Fastestwintest.Failedonscore11Grade=15,,hickschristopheralan,
+30,Engine:Generate/getsecrettest.Passed:trueEngine:NumberconversiontestPassed:truePlayer:Nametest.Player:Gamescompletedtest.Player:Fastestwintest.Grade=30,,hollowelljohn,
+0,,,lathamivspalding,Command 'cd sandbox/ && java Project3Tester' returned non-zero exit status 1
+25,Engine:Generate/getsecrettest.Passed:trueEngine:NumberconversiontestFailed(exceptionthrown):java.lang.ArrayIndexOutOfBoundsException:0Player:Nametest.Player:Gamescompletedtest.Player:Fastestwintest.Grade=25,,maggardjacko,
+0,,,mcdonoughjrdavidj,Command 'cd sandbox/ && java Project3Tester' returned non-zero exit status 1
+15,Engine:Generate/getsecrettest.Passed:falseEngine:NumberconversiontestPassed:falsePlayer:Nametest.Player:Gamescompletedtest.Player:Fastestwintest.Grade=15,,meadewil,
+20,Engine:Generate/getsecrettest.Passed:falsebutrangeistootight.Engine:NumberconversiontestFailed(exceptionthrown):java.lang.ArrayIndexOutOfBoundsException:0Player:Nametest.Player:Gamescompletedtest.Player:Fastestwintest.Grade=20,,morsetimothyj,
+20,Engine:Generate/getsecrettest.Passed:trueEngine:NumberconversiontestPassed:falsePlayer:Nametest.Player:Gamescompletedtest.Onlycompleted11gamesPlayer:Fastestwintest.Grade=20,,okinedokevin,
+20,Engine:Generate/getsecrettest.Passed:falsebutrangeistootight.Engine:NumberconversiontestPassed:falsePlayer:Nametest.Player:Gamescompletedtest.Player:Fastestwintest.Grade=20,,orecchiapaul,
+20,Engine:Generate/getsecrettest.Passed:trueEngine:NumberconversiontestPassed:truePlayer:Nametest.Player:Gamescompletedtest.Onlycompleted0gamesPlayer:Fastestwintest.Failedonscore11Grade=20,,owensjuliaf,
+20,Engine:Generate/getsecrettest.Passed:truebutrangeistootight.Engine:NumberconversiontestPassed:falsePlayer:Nametest.Player:Gamescompletedtest.Player:Fastestwintest.Grade=20,,padgettandrew,
+30,Engine:Generate/getsecrettest.Passed:trueEngine:NumberconversiontestPassed:truePlayer:Nametest.Player:Gamescompletedtest.Player:Fastestwintest.Grade=30,,pardoalejandro,
+0,,,robertsondavis,Command 'cd sandbox/ && java Project3Tester' returned non-zero exit status 1
+25,Engine:Generate/getsecrettest.Passed:trueEngine:NumberconversiontestPassed:falsePlayer:Nametest.Player:Gamescompletedtest.Player:Fastestwintest.Grade=25,,shealylydiae,
+0,,,singletaryhunterl,Command 'cd sandbox/ && java Project3Tester' returned non-zero exit status 1
+0,,,tizikally,Command 'cd sandbox/ && java Project3Tester' returned non-zero exit status 1
+30,Engine:Generate/getsecrettest.Passed:trueEngine:NumberconversiontestPassed:truePlayer:Nametest.Player:Gamescompletedtest.Player:Fastestwintest.Grade=30,,vonkellerbenjaminjosef,
+15,Engine:Generate/getsecrettest.Failed(exceptionthrown):java.lang.NullPointerExceptionEngine:NumberconversiontestPassed:falsePlayer:Nametest.Player:Gamescompletedtest.Player:Fastestwintest.Grade=15,,weglarzeliaskjaergaard,
+30,Engine:Generate/getsecrettest.Passed:trueEngine:NumberconversiontestPassed:truePlayer:Nametest.Player:Gamescompletedtest.Player:Fastestwintest.Grade=30,,williamsjoshuaj,
+0,,,wilsontrevon,Command 'cd sandbox/ && java Project3Tester' returned non-zero exit status 1
+30,Engine:Generate/getsecrettest.Passed:trueEngine:NumberconversiontestPassed:truePlayer:Nametest.Player:Gamescompletedtest.Player:Fastestwintest.Grade=30,,wongjackyf,
+0,,,wrightheatheri,Command 'cd sandbox/ && java Project3Tester' returned non-zero exit status 1
+0,,,xuejohn,Command 'cd sandbox/ && java Project3Tester' returned non-zero exit status 1

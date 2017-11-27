@@ -79,7 +79,7 @@ public class Engine {
 			}
 			//
 			//
-			System.out.println("TESTING MODE, SECRET NUMBER : " + secretNum);
+			//System.out.println("TESTING MODE, SECRET NUMBER : " + secretNum);
 			//
 			//
 			if (secretNum < upperBound && secretNum > lowerBound)
