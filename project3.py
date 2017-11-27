@@ -1,57 +1,34 @@
 import subprocess
-import time
 
-tests = [["1", "test1"], ["p"], ["r", "2", "test3"], ["q"]]
+fileList = subprocess.check_output("ls submissions/project3/", shell=True)
+fileList = fileList.split("\n")[0:len(fileList.split("\n")) - 1]
 
-def do(a):
-    if a[0] == "1":
-        p = subprocess.Popen("cd sandbox && java Bagels", stdin=subprocess.PIPE, stdout=subprocess.PIPE, universal_newlines=True, bufsize=1, shell=True)
-        for param in a:
-            p.stdin.write(str(param) + "\n")
-            print p.stdin.read()
+fileNameList = ["Bagels", "Engine", "Player"]
+requiredFiles = ["Validator.java"]
 
-        i = 0
-        while i < 10:
-            try:
-                p.stdin.write(str(i) + "\n")
-                print i
-                i += 1
-            except:
-                i = 10
-        #print p.communicate()[0] 
+#getting a list of students without duplicates
+studentList = []
+for f in fileList:
+    name = f.split("_")[0]
+    if name not in studentList:
+        studentList.append(name)
 
-p = subprocess.check_output("ls submissions/project3/", shell=True)
-print len(p.split("\n")) / 3
-print p.split("\n")[22 * 3]
+#for every student, create a separate directory
+for student in studentList:
+    subprocess.call("mkdir holder/project3/" + student, shell=True)
 
-def bro():
-    for test in tests:
-        print test
-        for option in test:
-            print option
-            p.stdin.write(str(option) + "\n")
-        if test[0] != "q":
-            if test[0] == "1" or test[0] == "p":
-                i = 0
-                while i < 10:
-                    try:
-                        p.stdin.write(str(i) + "\n")
-                        print i
-                        i += 1
-                    except:
-                        i = 10
-            else:
-                while i < 100:
-                    try:
-                        p.stdin.write(str(i) + "\n")
-                        print i
-                        i += 1
-                    except:
-                        i = 100
-    p.communicate()[0]
-        
+    #grab all the files associated with the students, move them, and renname them correctly
+    studentFiles = [x for x in fileList if student in x]
+    for f in studentFiles:
+        subprocess.call("cp submissions/project3/" + f + " holder/project3/" + student + "/", shell=True)
+        for name in fileNameList:
+            if name in f:
+                subprocess.call("cd holder/project3/" + student + " && mv " + f + " " + name + ".java", shell=True)
 
-         
+        #copy any required files form RequiredClasse
+        for reqF in requiredFiles:
+            subprocess.call("cp requiredClasses/" + reqF + " holder/project3/" + student + "/", shell=True)
 
-
-
+        #compile everything
+        subprocess.call("cd holder/project3/" + student + "/ && javac *.java", shell=True)
+     
