@@ -184,33 +184,95 @@ public class Lab10PersonTester {
 	public static void main(String[] args) {	
 		int grade = 0;
 		Lab10PersonTester tester = new Lab10PersonTester();
-		if(tester.test1())
+		
+		try{
+			if(tester.test1())
 			grade += 10;
+		
+		}catch(Exception e){
+			System.out.println("Error test 1\n" + e);
+		}
 		System.out.println();
-		if(tester.test2())
+
+		
+		try{
+			if(tester.test2())
 			grade += 10;
+		
+		}catch(Exception e){
+			System.out.println("Error test 2\n" + e);
+		}
 		System.out.println();
-		if(tester.test3())
+
+		
+		try{
+			if(tester.test3())
 			grade += 10;
+		
+		}catch(Exception e){
+			System.out.println("Error test 3\n" + e);
+		}
 		System.out.println();
-		if(tester.test4())
+
+		
+		try{
+			if(tester.test4())
 			grade += 30;
+		
+		}catch(Exception e){
+			System.out.println("Error test 4\n" + e);
+		}
 		System.out.println();
-		if(tester.test5())
+
+		
+		try{
+			if(tester.test5())
 			grade += 5;
+		
+		}catch(Exception e){
+			System.out.println("Error test 5\n" + e);
+		}
 		System.out.println();
-		if(tester.test6())
+
+		
+		try{
+			if(tester.test6())
 			grade += 10;
+		
+		}catch(Exception e){
+			System.out.println("Error test 6\n" + e);
+		}
 		System.out.println();
-		if(tester.test7())
+
+		
+		try{
+			if(tester.test7())
 			grade += 5;
+		
+		}catch(Exception e){
+			System.out.println("Error test 7\n" + e);
+		}
 		System.out.println();
-		if(tester.test8())
+
+		
+		try{
+			if(tester.test8())
 			grade += 10;
+		}catch(Exception e){
+			System.out.println("Error test 8\n" + e);
+		}
 		System.out.println();
-		if(tester.test9())
+
+		
+		try{
+			if(tester.test9())
 			grade += 10;
+		
+		}catch(Exception e){
+			System.out.println("Error test 9\n" + e);
+		}
 		System.out.println();
+
 
 		System.out.print("\nGrade=" + grade);
 		
