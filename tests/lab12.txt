@@ -1,0 +1,1 @@
+{"files": ["FindTheSums.java"],"required": ["FindTheSumsGrader.java"], "output": ["Total:        100 / 100 points"] }

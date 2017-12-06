@@ -17,7 +17,6 @@ class Checker():
         f = open("tests/" + self.labName + ".txt", "r")
         txt = json.loads(f.read())
         self.files = txt["files"]
-        #self.helpers = txt["helper"]
         self.required_file = txt["required"]
         self.expected_output = txt["output"]
 
@@ -50,14 +49,6 @@ class Checker():
         temp = subprocess.check_output("ls sandbox", shell=True)
         print "ls sandbox\n" + str(temp)
 
-        # for fName in self.files:
-        #     cleanedUpFileName = originalFiles[originalFiles.rfind('_') + 1:]
-        #     if ".java" not in cleanedUpFileName:
-        #         cleanedUpFileName += ".java"
-        #     if fName in originalFiles:
-        #         subprocess.call("cp submissions/" + self.labName + "/" + originalFiles + " sandbox/", shell=True)
-        #         subprocess.call("mv sandbox/" + originalFiles + " sandbox/" + fName, shell=True)
-        
         subprocess.call("cp requiredClasses/" + self.required_file + " sandbox/", shell=True)
         self.helperClasses()
         subprocess.call("javac -encoding ISO-8859-1 sandbox/*.java", shell=True)
@@ -93,11 +84,6 @@ class Checker():
             f.writeheader()
             for value in ob.values():
                 f.writerow(value)
-
-    def helperClasses(self):
-        for helper in self.helpers:
-            subprocess.call("cp helperClasses/" + helper + " " " sandbox/", shell=True)
-             
 
     def run(self):
         assignmentList = self.getAssignmentList()
