@@ -1,40 +1,40 @@
-grade,numOfErrors,name,errorList
-95,1,agafonovasninam,['\tTest Passed: false\tvalue set: 0.0 radius returned: 1.0']
-100,0,bareandrew,[]
-75,5,bastianiiitrip,"['\tTest Passed: false\tvalue set: 0.0 radius returned: 1.0', '\tTest Passed: false\t (0,1,1) intersects (1,0,1): false', '\tTest Passed: false\t (1,0,1) intersects (0,1,1): false', '\tTest Passed: false\t (0,1,1) intersects (10,0,2): true', '\tTest Passed: false\t (10,0,2) intersects (10,3,4): false']"
-90,2,battaglinijason,"['\tTest Passed: false\tvalue set: -1.0 radius returned: -1.0', '\tTest Passed: false\t (10,10,3) concentric with (0,0,5): true']"
-85,3,blaskomarkd,"['\tTest Passed: false\tvalue set: 0.0 radius returned: 1.0', '\tTest Passed: false\texpected: 314.1592653589793 found: 31.41592653589793', '\tTest Passed: false\texpected: 31415.926535897932 found: 314.1592653589793']"
-100,0,caldwelljacobr,[]
-100,0,christensendanielkeith,[]
-95,1,coppenbargerethancondit,['\tTest Passed: false\texpected: 13.0 found: 32.38826948140329']
-100,0,desaianeri,[]
-100,0,doanjackie,[]
-85,3,dobrenenalex,"['\tTest Passed: false\t (10,10,3) concentric with (0,0,5): true', '\tTest Passed: false\t (0,10,5)  equals (10,10,5): true', '\tTest Passed: false\t (0,11,5)  equals (0,10,5): true']"
-100,0,frazierjraj,[]
-0,11,griffiththomasc,Command 'cd sandbox/ && java RubricCircleTester ' returned non-zero exit status 1
-0,11,grimsleymichaele,Command 'cd sandbox/ && java RubricCircleTester ' returned non-zero exit status 1
-100,0,hallharrisonc,[]
-100,0,hartmonical,[]
-100,0,heldmatthewj,[]
-100,0,hennessytaylor,[]
-90,2,hickschristopheralan,"['\tTest Passed: false\tvalue set: 0.0 radius returned: 1.0', '\tTest Passed: false\t (0,1,1) intersects (10,0,2): true']"
-100,0,hollowelljohn,[]
-90,2,lathamivspalding,"['\tTest Passed: false\t (0,10,5)  equals (10,10,5): true', '\tTest Passed: false\t (0,11,5)  equals (0,10,5): true']"
-95,1,maggardjacko,['\tTest Passed: false\tvalue set: 0.0 radius returned: 1.0']
-85,3,mcdonoughjrdavidj,"['\tTest Passed: false\tvalue set: -1.0 x returned: 1.0', '\tTest Passed: false\tvalue set: -1.0 y returned: 1.0', '\tTest Passed: false\t (10,10,5) equals (10,10,5): false']"
-0,11,meadewil,Command 'cd sandbox/ && java RubricCircleTester ' returned non-zero exit status 1
-95,1,morsetimothyj,['\tTest Passed: false\tvalue set: 0.0 radius returned: 1.0']
-100,0,orecchiapaul,[]
-100,0,padgettandrew,[]
-100,0,pardoalejandro,[]
-100,0,shealylydiae,[]
-100,0,singletaryhunterl,[]
-0,11,smithzac,Command 'cd sandbox/ && java RubricCircleTester ' returned non-zero exit status 1
-80,4,tizikally,"['\tTest Passed: false\t(1,1,1) is a unit circle: true', '\tTest Passed: false\tvalue set: 0.0 radius returned: 1.0', '\tTest Passed: false\texpected: 2.0 found: 1.0', '\tTest Passed: false\texpected: 20.0 found: 100.0']"
-100,0,vonkellerbenjaminjosef,[]
-100,0,weglarzeliaskjaergaard,[]
-100,0,williamsjoshuaj,[]
-60,8,wilsontrevon,"['\tTest Passed: false\tvalue set: 1.0 x returned: 20.0', '\tTest Passed: false\tvalue set: -1.0 x returned: 20.0', '\tTest Passed: false\tvalue set: 0.0 x returned: 20.0', '\tTest Passed: false\tvalue set: 1138.25 x returned: 20.0', '\tTest Passed: false\tvalue set: -1.0 y returned: 1.0', '\tTest Passed: false\tvalue set: 0.0 y set returned: 1.0', '\tTest Passed: false\tvalue set: 1000.8 y returned: 1.0', '\tTest Passed: false\t (0,1,1) intersects (10,0,2): true']"
-0,11,wongjackyf,Command 'cd sandbox/ && java RubricCircleTester ' returned non-zero exit status 1
-95,1,wrightheatheri,"['\tTest Passed: false\t (0,1,1) intersects (10,0,2): true']"
-100,0,xuejohn,[]
+"grade","name","numOfErrors","errorList"
+"95","agafonovasninam","1","['\tTest Passed: false\tvalue set: 0.0 radius returned: 1.0']"
+"100","bareandrew","0","[]"
+"75","bastianiiitrip","5","['\tTest Passed: false\tvalue set: 0.0 radius returned: 1.0', '\tTest Passed: false\t (0,1,1) intersects (1,0,1): false', '\tTest Passed: false\t (1,0,1) intersects (0,1,1): false', '\tTest Passed: false\t (0,1,1) intersects (10,0,2): true', '\tTest Passed: false\t (10,0,2) intersects (10,3,4): false']"
+"90","battaglinijason","2","['\tTest Passed: false\tvalue set: -1.0 radius returned: -1.0', '\tTest Passed: false\t (10,10,3) concentric with (0,0,5): true']"
+"85","blaskomarkd","3","['\tTest Passed: false\tvalue set: 0.0 radius returned: 1.0', '\tTest Passed: false\texpected: 314.1592653589793 found: 31.41592653589793', '\tTest Passed: false\texpected: 31415.926535897932 found: 314.1592653589793']"
+"100","caldwelljacobr","0","[]"
+"100","christensendanielkeith","0","[]"
+"95","coppenbargerethancondit","1","['\tTest Passed: false\texpected: 13.0 found: 32.38826948140329']"
+"100","desaianeri","0","[]"
+"100","doanjackie","0","[]"
+"85","dobrenenalex","3","['\tTest Passed: false\t (10,10,3) concentric with (0,0,5): true', '\tTest Passed: false\t (0,10,5)  equals (10,10,5): true', '\tTest Passed: false\t (0,11,5)  equals (0,10,5): true']"
+"100","frazierjraj","0","[]"
+"0","griffiththomasc","11","No real code"
+"85","grimsleymichaele","11","had isCocentric not isConcentric - 10 and -5 from testing"
+"100","hallharrisonc","0","[]"
+"100","hartmonical","0","[]"
+"100","heldmatthewj","0","[]"
+"100","hennessytaylor","0","[]"
+"90","hickschristopheralan","2","['\tTest Passed: false\tvalue set: 0.0 radius returned: 1.0', '\tTest Passed: false\t (0,1,1) intersects (10,0,2): true']"
+"100","hollowelljohn","0","[]"
+"90","lathamivspalding","2","['\tTest Passed: false\t (0,10,5)  equals (10,10,5): true', '\tTest Passed: false\t (0,11,5)  equals (0,10,5): true']"
+"95","maggardjacko","1","['\tTest Passed: false\tvalue set: 0.0 radius returned: 1.0']"
+"85","mcdonoughjrdavidj","3","['\tTest Passed: false\tvalue set: -1.0 x returned: 1.0', '\tTest Passed: false\tvalue set: -1.0 y returned: 1.0', '\tTest Passed: false\t (10,10,5) equals (10,10,5): false']"
+"0","meadewil","11","Method signatures are wrong"
+"95","morsetimothyj","1","['\tTest Passed: false\tvalue set: 0.0 radius returned: 1.0']"
+"100","orecchiapaul","0","[]"
+"100","padgettandrew","0","[]"
+"100","pardoalejandro","0","[]"
+"100","shealylydiae","0","[]"
+"100","singletaryhunterl","0","[]"
+"0","smithzac","11","Method signatures are wrong"
+"80","tizikally","4","['\tTest Passed: false\t(1,1,1) is a unit circle: true', '\tTest Passed: false\tvalue set: 0.0 radius returned: 1.0', '\tTest Passed: false\texpected: 2.0 found: 1.0', '\tTest Passed: false\texpected: 20.0 found: 100.0']"
+"100","vonkellerbenjaminjosef","0","[]"
+"100","weglarzeliaskjaergaard","0","[]"
+"100","williamsjoshuaj","0","[]"
+"60","wilsontrevon","8","['\tTest Passed: false\tvalue set: 1.0 x returned: 20.0', '\tTest Passed: false\tvalue set: -1.0 x returned: 20.0', '\tTest Passed: false\tvalue set: 0.0 x returned: 20.0', '\tTest Passed: false\tvalue set: 1138.25 x returned: 20.0', '\tTest Passed: false\tvalue set: -1.0 y returned: 1.0', '\tTest Passed: false\tvalue set: 0.0 y set returned: 1.0', '\tTest Passed: false\tvalue set: 1000.8 y returned: 1.0', '\tTest Passed: false\t (0,1,1) intersects (10,0,2): true']"
+"0","wongjackyf","11","Method signatures are wrong"
+"95","wrightheatheri","1","['\tTest Passed: false\t (0,1,1) intersects (10,0,2): true']"
+"100","xuejohn","0","[]"
