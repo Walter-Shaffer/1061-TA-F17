@@ -410,7 +410,7 @@ public class RubricCircleTester{
 	public static void main(String[] args) {
 		
 		boolean flag =  true;
-		int grade = 0;
+		int grade = 45;
 		try {
 			if (unitCircleTest())
 				grade += 5;
